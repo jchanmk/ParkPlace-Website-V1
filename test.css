@@ -1,0 +1,14 @@
+body{
+  background-image: url(./Assets/newBackground.png), url(./Assets/desktopBackdrop@2x.png);
+  background-position: center top,  top -34% right; 
+  background-repeat: no-repeat, no-repeat;
+ background-size: 50%, 50%;  
+}
+
+.top {
+    height: ;
+    /* background-image: url(./Assets/newBackground.png), url(./Assets/desktopBackdrop@2x.png);
+    background-position: center top,  top 0 left 5%; 
+    background-repeat: no-repeat, no-repeat;
+   background-size: 50%, 50%;  */
+}
