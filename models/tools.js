@@ -1,86 +1,28 @@
-// $(function(){
-//     $("img#finditPop")
-//     .hide();
-// });
-var hover = false;
-// var mouse = false;
-
-// $("img#noQuestion").hover(function () {
-//     mouse = false;
-// })
-/////////
 $("img#findIt").hover(function () {
     $("img#finditPop, #finditRead").toggleClass("reveal");
-    // if (hover === false) {
-    //     hover = true;
-    //     console.log(hover);
-    // }
-    // else {
-    //     hover = false;
-    //     // mouse = true;
-    //     // console.log(hover + "2" + " " + mouse);
-    // }
 });
 
 $("img#finditPop, #finditRead").hover(function () {
     $("#finditPop, #finditRead").toggleClass("reveal");
 });
 
-// $("#finditRead").hover(function () {
-//     $("#finditPop, #finditRead").toggleClass("reveal");
-// });
-
 /////////////////
 
 $("img#bookIt").hover(function () {
-    $("img#bookitPop").toggleClass("reveal");
-    if (hover === false) {
-        hover = true;
-        console.log(hover);
-
-    }
-    else {
-        hover = false;
-        mouse = true;
-        isHovered = false;
-        console.log(hover + "2" + " " + mouse);
-    }
+    $("img#bookitPop, #bookitRead").toggleClass("reveal");
 });
 
-$("img#bookitPop").hover(function () {
-    if (!hover && mouse) {
-        if (isHovered) {
-            mouse = false;
-        }
-        $(this).toggleClass("reveal");
-        isHovered = true;
-    }
+$("img#bookitPop, #bookitRead").hover(function () {
+        $("img#bookitPop, #bookitRead").toggleClass("reveal");
 });
 
 //////////////
 $("img#parqIt").hover(function () {
-    $("img#parqitPop").toggleClass("reveal");
-    if (hover === false) {
-        hover = true;
-        console.log(hover);
-
-    }
-    else {
-        hover = false;
-        mouse = true;
-        isHovered = false;
-        console.log(hover + "2" + " " + mouse);
-    }
+    $("img#parqitPop, #parqitRead").toggleClass("reveal");
 });
 
-$("img#parqitPop").hover(function () {
-    if (!hover && mouse) {
-        if (isHovered) {
-            mouse = false;
-        }
-        $(this).toggleClass("reveal");
-        isHovered = true;
-    }
+$("img#parqitPop, #parqitRead").hover(function () {
+        $("img#parqitPop, #parqitRead").toggleClass("reveal");
 });
 
 $(document).ready(function () {

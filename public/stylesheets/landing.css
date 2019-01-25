@@ -45,7 +45,7 @@ body{
 }
 
 #parqIt{
-  margin-left: -10.8%;
+  margin-left: -7.75%;
   margin-top: -21.8%;
   width: 25.7%;
   transition: all .2s ease-in-out; 
@@ -96,9 +96,7 @@ body{
   visibility: visible;
 }
 
-#finditRead{
-  margin-top: -29%;
-  margin-left: -18%;
+.readMoreButtons{
   font-size: 90%;
   padding: 1%;
   background: #3973F1;
@@ -109,10 +107,23 @@ body{
   visibility: hidden;
   transition: visibility 0.2s, opacity 0.2s linear;
 }
-#finditRead.reveal{
+#finditRead{
+  margin-top: -29.4%;
+  margin-left: -18%;
+}
+#finditRead.reveal, #bookitRead.reveal, #parqitRead.reveal{
   opacity: 1;
   visibility: visible;
 }
+#bookitRead{
+  margin-top: -51%;
+  margin-left: -18%;
+}
+#parqitRead{
+  margin-top: -55.7%;
+  margin-left: -18%;
+}
+
 
 
 .row.two{
