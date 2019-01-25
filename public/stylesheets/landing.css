@@ -137,21 +137,25 @@ body{
     display: block;
   }
   body{
-    background-image: url(/Assets/Backgrounds/newBackground.png), url(/Assets/Backgrounds/desktopBackdrop@2x.png);
-    background-position: top 0 left 105.9%, top 100% right -7%;
+    background-image: url(/Assets/Backgrounds/desktopBackground.svg), url(/Assets/Backgrounds/desktopBackdrop@2x.png);
+    background-position: top -5% left 171%, top 100% right -13%;
     background-repeat: no-repeat, no-repeat;
-    background-size: 82.3%, 84.3%;
+    background-size: 91.9%, 86.3%;
   }
 }
 
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
   .mobileView {
     display: block;
   }
-}
+  body{
+    background-image: url(/Assets/Mobile/Background/Mobile\ Background.svg);
+    background-position: top 0 left 105.9%;
+    background-repeat: no-repeat;
+    background-size: 82.3%;
+  }
+} */
 
-.mobileView img{
-}
 
 .bkgrnd2{
     display: block;
@@ -160,14 +164,6 @@ body{
     top: -30px;
     left: 16.63%;
 }
-/* 
-.bkgrnd2{
-  display: block;
-  position: absolute;
-  width: 83.5%;
-  top: 153%;
-  left: 16.63%;
-} */
 
 #copywrite{
   font-family: Open Sans;
@@ -259,8 +255,9 @@ body{
   #sidebar ul.components {
     padding: 20px 0;
     padding-left: 15%;
-    padding-bottom: 40px;
-    /* border-bottom: 1px solid #47748b; */
+    padding-bottom: 25px;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
   }
   
   #sidebar ul p {
@@ -331,6 +328,7 @@ body{
   }
 
   #navBottom{
+    padding-top: 15px;
     font-weight: 600;
     text-align: center;
   }

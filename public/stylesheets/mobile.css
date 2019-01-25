@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px){
+    .mobileView {
+      display: block;
+    }
+    body{
+      background-image: url(/Assets/Mobile/Background/mobileBackgroundUpper.svg), url(/Assets/Mobile/Background/Rectangle\ 1@2x.png);
+      background-position: top 0 left 50%, top -81% left 50%;
+      background-repeat: no-repeat, no-repeat;
+      background-size: 137.1%, 100%;
+    }
+  }
+
+  #noQuestionMobile {
+    width: 47%;
+    margin-left: 40%;
+    margin-top: 55%;
+    box-shadow: 6px 17px 22px 0 rgba(0, 0, 0, 0.2);
+  
+  }
+
+  .logoMobile{
+    /* margin-left: 50%; */
+    /* margin-top: 12%; */
+    /* margin-top: 25%; */
+    left: 50%;
+    top: 23em;
+    width: 27%;
+    opacity: 0;
+    display: block;
+    position: relative;
+}
