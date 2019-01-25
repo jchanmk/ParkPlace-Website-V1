@@ -4,14 +4,13 @@
 // });
 var hover = false;
 var mouse = false;
-var isHovered = false;
 
-$("img#noQuestion").hover(function(){
+$("img#noQuestion").hover(function () {
     mouse = false;
 })
-
+/////////
 $("img#findIt").hover(function () {
-    $("img#finditPop").toggleClass("reveal");
+    $("img#finditPop, #finditRead").toggleClass("reveal");
     if (hover === false) {
         hover = true;
         console.log(hover);
@@ -20,19 +19,16 @@ $("img#findIt").hover(function () {
     else {
         hover = false;
         mouse = true;
-        isHovered = false;
         console.log(hover + "2" + " " + mouse);
     }
 });
 
 $("img#finditPop").hover(function () {
-    if (!hover && mouse) {
-        if(isHovered){
-            mouse = false;
-        }
-        $(this).toggleClass("reveal");
-        isHovered = true;
-    }
+    $("#finditPop, #finditRead").toggleClass("reveal");
+});
+
+$("#finditRead").hover(function () {
+    $("#finditPop, #finditRead").toggleClass("reveal");
 });
 
 /////////////////
@@ -54,7 +50,7 @@ $("img#bookIt").hover(function () {
 
 $("img#bookitPop").hover(function () {
     if (!hover && mouse) {
-        if(isHovered){
+        if (isHovered) {
             mouse = false;
         }
         $(this).toggleClass("reveal");
@@ -80,7 +76,7 @@ $("img#parqIt").hover(function () {
 
 $("img#parqitPop").hover(function () {
     if (!hover && mouse) {
-        if(isHovered){
+        if (isHovered) {
             mouse = false;
         }
         $(this).toggleClass("reveal");
@@ -88,11 +84,11 @@ $("img#parqitPop").hover(function () {
     }
 });
 
-$( document ).ready(function() {
+$(document).ready(function () {
     $(".logo").delay(1000).animate({
         top: '7em',
         opacity: '1',
-      }, 400, "swing");
+    }, 500, "swing");
 });
 
 

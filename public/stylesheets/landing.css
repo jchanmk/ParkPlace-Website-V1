@@ -69,7 +69,7 @@ body{
 }
 
 #bookitPop{
-  margin-top: -77%;
+  margin-top: -76.7%;
   margin-left:-40%;
   opacity: 0;
   visibility: hidden;
@@ -95,6 +95,25 @@ body{
   opacity: 1;
   visibility: visible;
 }
+
+#finditRead{
+  margin-top: -29%;
+  margin-left: -18%;
+  font-size: 90%;
+  padding: 1%;
+  background: #3973F1;
+  border-radius: 50px;
+  width: 14.5%;
+  height: 2.9em;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.2s, opacity 0.2s linear;
+}
+#finditRead.reveal{
+  opacity: 1;
+  visibility: visible;
+}
+
 
 .row.two{
   margin-top: 13%;
@@ -250,10 +269,16 @@ body{
     left: 15%;
   }
 
-#sidebar .sidebar-header button{
-    position: relative;
-    left: 30%;
+#sidebar .sidebar-header #loginButton{
+    /* position: relative; */
+    margin-left: 27.2%;
     font-size: .8em;
+    padding: 2%;
+    background: #3973F1;
+    border-radius: 50px;
+    width: 9em;
+    height: 2.4em;
+    -moz-border-radius: 50px;
 }
 
 
