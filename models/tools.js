@@ -3,33 +3,32 @@
 //     .hide();
 // });
 var hover = false;
-var mouse = false;
+// var mouse = false;
 
-$("img#noQuestion").hover(function () {
-    mouse = false;
-})
+// $("img#noQuestion").hover(function () {
+//     mouse = false;
+// })
 /////////
 $("img#findIt").hover(function () {
     $("img#finditPop, #finditRead").toggleClass("reveal");
-    if (hover === false) {
-        hover = true;
-        console.log(hover);
-
-    }
-    else {
-        hover = false;
-        mouse = true;
-        console.log(hover + "2" + " " + mouse);
-    }
+    // if (hover === false) {
+    //     hover = true;
+    //     console.log(hover);
+    // }
+    // else {
+    //     hover = false;
+    //     // mouse = true;
+    //     // console.log(hover + "2" + " " + mouse);
+    // }
 });
 
-$("img#finditPop").hover(function () {
+$("img#finditPop, #finditRead").hover(function () {
     $("#finditPop, #finditRead").toggleClass("reveal");
 });
 
-$("#finditRead").hover(function () {
-    $("#finditPop, #finditRead").toggleClass("reveal");
-});
+// $("#finditRead").hover(function () {
+//     $("#finditPop, #finditRead").toggleClass("reveal");
+// });
 
 /////////////////
 
