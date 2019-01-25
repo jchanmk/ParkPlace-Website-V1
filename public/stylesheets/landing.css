@@ -16,6 +16,8 @@ body{
 .steps {
   margin-top: -0.2%;
   box-shadow: 6px 17px 22px 0 rgba(0, 0, 0, 0.2);
+  width: 25.7%;
+  transition: all .2s ease-in-out; 
 }
 
 #noQuestion {
@@ -26,78 +28,44 @@ body{
 
 }
 
-#findIt{
-  width: 25.7%;
-  transition: all .2s ease-in-out; 
-}
-#findIt:hover{
-  transform: scale(1.04);
-}
-
 #bookIt{
   margin-left: 25.6%;
   margin-top: -21.7%;
-  width: 25.7%;
-  transition: all .2s ease-in-out; 
 }
-#bookIt:hover{
-  transform: scale(1.04);
-}
-
 #parqIt{
   margin-left: -7.75%;
   margin-top: -21.8%;
-  width: 25.7%;
-  transition: all .2s ease-in-out; 
 }
-#parqIt:hover{
+#findIt:hover, #bookIt:hover, #parqIt:hover{
   transform: scale(1.04);
 }
 
+.popups {
+  opacity: 0;
+  visibility: hidden;
+  width: 50%;
+  transition: visibility 0.2s, opacity 0.2s linear;
+}
 #finditPop{
   margin-top: -55%;
   margin-left:-20%;
-  opacity: 0;
-  visibility: hidden;
-  width: 50%;
-  transition: visibility 0.2s, opacity 0.2s linear;
 }
-
-#finditPop.reveal{
-  opacity: 1;
-  visibility: visible;
-}
-
 #bookitPop{
   margin-top: -76.7%;
   margin-left:-40%;
-  opacity: 0;
-  visibility: hidden;
-  width: 50%;
-  transition: visibility 0.2s, opacity 0.2s linear;
 }
-
-#bookitPop.reveal{
-  opacity: 1;
-  visibility: visible;
-}
-
 #parqitPop{
   margin-top: -81%;
   margin-left: 23%;
-  opacity: 0;
-  visibility: hidden;
-  width: 50%;
-  transition: visibility 0.2s, opacity 0.2s linear;
 }
-
-#parqitPop.reveal{
+#finditPop.reveal, #bookitPop.reveal, #parqitPop.reveal{
   opacity: 1;
   visibility: visible;
 }
 
 .readMoreButtons{
   font-size: 90%;
+  margin-left: -18%;
   padding: 1%;
   background: #3973F1;
   border-radius: 50px;
@@ -109,22 +77,17 @@ body{
 }
 #finditRead{
   margin-top: -29.4%;
-  margin-left: -18%;
+}
+#bookitRead{
+  margin-top: -51%;
+}
+#parqitRead{
+  margin-top: -55.7%;
 }
 #finditRead.reveal, #bookitRead.reveal, #parqitRead.reveal{
   opacity: 1;
   visibility: visible;
 }
-#bookitRead{
-  margin-top: -51%;
-  margin-left: -18%;
-}
-#parqitRead{
-  margin-top: -55.7%;
-  margin-left: -18%;
-}
-
-
 
 .row.two{
   margin-top: 13%;
