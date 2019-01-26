@@ -38,12 +38,10 @@
 }
 
 /* NavBar */
-#hamburgerMenu{
-    width: 10%;
-}
-#hamburgerMenu img{
-
-}
+/* #hamburgerMenu{
+    top: 0;
+    left: 0;
+} */
 
 .wrapperMobile {
     /* display: flex; */
@@ -52,7 +50,7 @@
     align-items: stretch;
     font-weight: lighter;
     width:53%;
-    left: -250px;
+    left: -450px;
     transition: all 0.3s;
   }
 .wrapperMobile.active {

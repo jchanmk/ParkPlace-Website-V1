@@ -135,6 +135,7 @@ body{
   .desktopView {
     display: block;
   }
+
   body{
     background-image: url(/Assets/Backgrounds/desktopBackground.svg), url(/Assets/Backgrounds/desktopBackdrop@2x.png);
     background-position: top -5% left 171%, top 100% right -13%;
@@ -215,7 +216,7 @@ body{
   }
   
   #sidebar.active {
-    margin-left: -250px;
+    /* margin-left: -250px; */
   }
   
   #sidebar .sidebar-header {
