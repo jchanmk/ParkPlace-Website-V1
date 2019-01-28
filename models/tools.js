@@ -27,6 +27,12 @@ $(document).ready(function () {
         top: '7em',
         opacity: '1',
     }, 500, "swing");
+    if(screen.width === 768){
+        $('#noQuestionMobile, #sidebarCollapse').addClass('iPad');
+    }
+    else{
+        $('#noQuestionMobile, #sidebarCollapse').removeClass('iPad');
+    }
 });
 /////// Mobile  ////////////
 $('#dismiss, .overlay').on('click', function () {
@@ -44,5 +50,7 @@ $('#sidebarCollapse').on('click', function () {
     $('.collapse.in').toggleClass('in');
     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
 });
+
+
 
 
