@@ -23,16 +23,29 @@ $("img#parqitPop, #parqitRead").hover(function () {
 
 
 $(document).ready(function () {
-    $(".logo").delay(1000).animate({
+    $(".logo").delay(1000).animate({ // parq logo animation
         top: '7em',
         opacity: '1',
     }, 500, "swing");
-    if(screen.width === 768){
-        $('#noQuestionMobile, #sidebarCollapse').addClass('iPad');
+    if(screen.width === 768){   // ipad resizing
+        $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss').addClass('iPad');
     }
     else{
-        $('#noQuestionMobile, #sidebarCollapse').removeClass('iPad');
+        $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss').removeClass('iPad');
     }
+    if(screen.width === 375){   // iphone6 resizing
+        $('.stepsMobile').addClass('iPhone6');
+    }
+    else{
+        $('.stepsMobile').removeClass('iPhone6');
+    }
+    if(screen.width === 320){   // iphone5 resizing
+        $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p').addClass('iPhone5');
+    }
+    else{
+        $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p').removeClass('iPhone5');
+    }
+    
 });
 /////// Mobile  ////////////
 $('#dismiss, .overlay').on('click', function () {
@@ -40,15 +53,23 @@ $('#dismiss, .overlay').on('click', function () {
     $('.wrapperMobile').removeClass('active');
     // hide overlay
     $('.overlay').removeClass('active');
+    // adding button
+    $('#sidebarCollapse').removeClass('displayNone');
 });
 
-$('#sidebarCollapse').on('click', function () {
+$('#sidebarCollapse, #sidebarCollapse.iPad').on('click', function () {
     // open sidebar
     $('.wrapperMobile').addClass('active');
     // fade in the overlay
     $('.overlay').addClass('active');
     $('.collapse.in').toggleClass('in');
     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    // removing button 
+    // $('#sidebarCollapse').addClass('displayNone');
+    $('#sidebarCollapse').delay(500).queue(function(next){
+        $(this).addClass('displayNone');
+        next();
+    });
 });
 
 
