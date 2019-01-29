@@ -28,10 +28,14 @@ $(document).ready(function () {
         opacity: '1',
     }, 500, "swing");
     if(screen.width === 768){   // ipad resizing
-        $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss').addClass('iPad');
+        $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').addClass('iPad');
+        $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').addClass('iPad');
+        $('.quotesDiv, #sidebarMobile').addClass('iPad');
     }
     else{
-        $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss').removeClass('iPad');
+        $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').removeClass('iPad');
+        $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').removeClass('iPad');
+        $('.quotesDiv, #sidebarMobile').removeClass('iPad');
     }
     if(screen.width === 375){   // iphone6 resizing
         $('.stepsMobile').addClass('iPhone6');
@@ -71,6 +75,29 @@ $('#sidebarCollapse, #sidebarCollapse.iPad').on('click', function () {
         next();
     });
 });
+
+$("img#findItMobile").hover(function () {
+    $("img#finditPopMobile, #finditReadMobile").toggleClass("reveal");
+});
+
+// $("img#finditPopMobile, #finditReadMobile").click(function () {
+//     $("#finditPopMobile, #finditReadMobile").toggleClass("reveal");
+// });
+/////////////////
+$("img#bookItMobile").hover(function () {
+    $("img#bookitPopMobile, #bookitReadMobile").toggleClass("reveal");
+});
+// $("img#bookitPopMobile, #bookitReadMobile").click(function () {
+//         $("img#bookitPopMobile, #bookitReadMobile").toggleClass("reveal");
+// });
+
+//////////////
+$("img#parqItMobile").hover(function () {
+    $("img#parqitPopMobile, #parqitReadMobile").toggleClass("reveal");
+});
+// $("img#parqitPopMobile, #parqitReadMobile").click(function () {
+//         $("img#parqitPopMobile, #parqitReadMobile").toggleClass("reveal");
+// });
 
 
 

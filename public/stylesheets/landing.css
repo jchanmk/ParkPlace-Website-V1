@@ -6,7 +6,35 @@ body{
   font-family: Open Sans;
 }
 .parent{
-  margin-bottom: -31px;
+  /* margin-bottom: -31px; */
+    /* margin-bottom: -91px; */
+}
+
+.desktopView{
+  display: none;
+}
+
+.mobileView{
+  display: none;
+}
+
+@media screen and (min-width: 769px){
+  .desktopView {
+    display: block;
+  }
+
+  body{
+    background-image: url(/Assets/Backgrounds/desktopBackground.svg), url(/Assets/Backgrounds/desktopBackdrop@2x.png);
+    background-position: top -5% left 171%, top 100% right -13%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 91.9%, 86.3%;
+  }
+}
+
+#temporarySearch{
+  font-size: 30px;
+  margin-left: 56%;
+  margin-top: 17%;
 }
 
 .row.one {
@@ -23,7 +51,8 @@ body{
 #noQuestion {
   width: 47%;
   margin-left: 40%;
-  margin-top: 55%;
+  /* margin-top: 55%; */
+  margin-top: 35%;
   box-shadow: 6px 17px 22px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -111,6 +140,17 @@ body{
   width: 92%;
 }
 
+#moneyButton{
+  font-size: 90%;
+  margin-left: -22%;
+  margin-top: 17%;
+  padding: 0.8%;
+  background: #3973F1;
+  border-radius: 50px;
+  width: 12.5%;
+  height: 2.9em;
+}
+
 .logo{
     /* margin-left: 50%; */
     /* margin-top: 12%; */
@@ -121,27 +161,6 @@ body{
     opacity: 0;
     display: block;
     position: relative;
-}
-
-.desktopView{
-  display: none;
-}
-
-.mobileView{
-  display: none;
-}
-
-@media screen and (min-width: 800px){
-  .desktopView {
-    display: block;
-  }
-
-  body{
-    background-image: url(/Assets/Backgrounds/desktopBackground.svg), url(/Assets/Backgrounds/desktopBackdrop@2x.png);
-    background-position: top -5% left 171%, top 100% right -13%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 91.9%, 86.3%;
-  }
 }
 
 /* @media screen and (max-width: 800px){
@@ -215,9 +234,9 @@ body{
     color: inherit;
   }
   
-  #sidebar.active {
-    /* margin-left: -250px; */
-  }
+  /* #sidebar.active {
+    margin-left: -250px;
+  } */
   
   #sidebar .sidebar-header {
     padding: 25px;
