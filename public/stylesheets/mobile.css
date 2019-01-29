@@ -100,7 +100,7 @@
     margin-top: -40%;
   }
   #parqItMobile.iPad{
-    margin-left: -16.5%;
+    margin-left: -26.5%;
     margin-top: -38%;
   }
   .readMoreButtonsMobile{
@@ -115,6 +115,11 @@
     visibility: hidden;
     transition: visibility 0.2s, opacity 0.2s linear;
   }
+  .readMoreButtonsMobile.iPad{
+    padding: 1.5%;
+    height: 3em;
+}
+
 
 
   #finditReadMobile{
@@ -125,9 +130,16 @@
     margin-top: -88%;
     margin-left: 28%;
   }
+  #bookitReadMobile.iPad{
+    margin-top: -88%;
+    margin-left: 38%;
+  }
   #parqitReadMobile{
     margin-top: -102.7%;
     margin-left: -32%;
+  }
+  #parqitReadMobile.iPad{
+    margin-top: -95.7%;
   }
   #finditReadMobile.reveal, #bookitReadMobile.reveal, #parqitReadMobile.reveal{
     opacity: 1;

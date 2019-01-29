@@ -30,12 +30,12 @@ $(document).ready(function () {
     if(screen.width === 768){   // ipad resizing
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').addClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').addClass('iPad');
-        $('.quotesDiv, #sidebarMobile').addClass('iPad');
+        $('.quotesDiv, #sidebarMobile, #bookitReadMobile,   #parqitReadMobile, .readMoreButtonsMobile').addClass('iPad');
     }
     else{
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').removeClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').removeClass('iPad');
-        $('.quotesDiv, #sidebarMobile').removeClass('iPad');
+        $('.quotesDiv, #sidebarMobile, #bookitReadMobile,   #parqitReadMobile, .readMoreButtonsMobile').removeClass('iPad');
     }
     if(screen.width === 375){   // iphone6 resizing
         $('.stepsMobile').addClass('iPhone6');
