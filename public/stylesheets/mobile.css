@@ -6,7 +6,7 @@
       background-image: url(/Assets/Mobile/Background/mobileBackgroundUpper.svg), url(/Assets/Mobile/Background/Rectangle2@2x.png);
       /* background-image: url(/Assets/Mobile/Background/mobileBackgroundUpper.svg), url(/Assets/Mobile/Background/Rectangle\ 1@2x.png); */
       /* background-position: top 0 left 50%, top -81% left 50%; */
-        background-position: top 0 left 50%, top 139% left 50%;
+        background-position: top 0 left 50%, top 129% left 50%;
       background-repeat: no-repeat, no-repeat;
       background-size: 137.1%, 100%;
     }
@@ -82,6 +82,9 @@
     margin-top: -145.8%;
     margin-left: -19%;
   }
+  #parqitPopMobile.iPhone5{
+    margin-top: -152.8%;
+  }
   #finditPopMobile.reveal, #bookitPopMobile.reveal, #parqitPopMobile.reveal{
     opacity: 1;
     visibility: visible;
@@ -103,6 +106,9 @@
     margin-left: -26.5%;
     margin-top: -38%;
   }
+  #parqItMobile.iPhone5{
+    margin-top: -42.6%;
+  }
   .readMoreButtonsMobile{
     font-size: 70%;
     margin-left: -28%;
@@ -118,7 +124,10 @@
   .readMoreButtonsMobile.iPad{
     padding: 1.5%;
     height: 3em;
-}
+  }
+  .readMoreButtonsMobile.iPhone5{
+    font-size: 50%;
+  }
 
 
 
@@ -141,6 +150,9 @@
   #parqitReadMobile.iPad{
     margin-top: -95.7%;
   }
+  #parqitReadMobile.iPhone5{
+    margin-top: -107.7%;
+  }
   #finditReadMobile.reveal, #bookitReadMobile.reveal, #parqitReadMobile.reveal{
     opacity: 1;
     visibility: visible;
@@ -152,10 +164,10 @@
     /* margin-bottom: -900%; */
   }
   #becomeHostMobile{
-    /* keep here */
+    width: 90%;
   }
   #becomeHostMobile.iPad{
-      width: 90%;
+      /* width: 90%; */
       /* margin-left: 6%; */
       margin-top: 10%;
   }
@@ -175,6 +187,9 @@
       height: 3em;
       padding: 1.3%;
   }
+  #moneyButtonMobile.iPhone5{
+      font-size: 80%
+}
   .rowthreeMobile{
       margin-bottom: 10%;
   }
@@ -199,6 +214,9 @@
      margin-right: 8%;
      width: 190%;
  }
+ #quotesMobile.iPhone5{
+    margin-top: 27%;
+}
 
  #quotesHeader{
     position: absolute;
@@ -210,6 +228,9 @@
  #quotesHeader.iPad{
      font-size: 255%;
      margin-top: 4%;
+ }
+ #quotesHeader.iPhone5{
+    font-size: 105%;
  }
   
 

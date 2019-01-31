@@ -44,10 +44,12 @@ $(document).ready(function () {
         $('.stepsMobile').removeClass('iPhone6');
     }
     if(screen.width === 320){   // iphone5 resizing
-        $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p').addClass('iPhone5');
+        $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p, #moneyButtonMobile, .readMoreButtonsMobile').addClass('iPhone5');
+        $(' #parqItMobile, #parqitPopMobile, #parqitReadMobile, #quotesHeader, #quotesMobile').addClass('iPhone5');
     }
     else{
-        $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p').removeClass('iPhone5');
+        $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p, #moneyButtonMobile, .readMoreButtonsMobile').removeClass('iPhone5');
+        $(' #parqItMobile, #parqitPopMobile, #parqitReadMobile, #quotesHeader, #quotesMobile').removeClass('iPhone5');
     }
     
 });
