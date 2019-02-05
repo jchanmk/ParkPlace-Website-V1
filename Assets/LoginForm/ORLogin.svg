@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252" height="15" viewBox="0 0 252 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 15px;
+        font-family: Helvetica;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: rgba(255,255,255,0.5);
+      }
+    </style>
+  </defs>
+  <g id="ORLogin" transform="translate(-210.5 -556.591)">
+    <text id="OR" class="cls-1" transform="translate(326.965 568.591)"><tspan x="0" y="0">OR</tspan></text>
+    <line id="Line_15" data-name="Line 15" class="cls-2" x2="104" transform="translate(210.5 564.5)"/>
+    <line id="Line_16" data-name="Line 16" class="cls-2" x2="104" transform="translate(358.5 564.5)"/>
+  </g>
+</svg>

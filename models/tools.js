@@ -21,6 +21,12 @@ $("img#parqitPop, #parqitRead").hover(function () {
         $("img#parqitPop, #parqitRead").toggleClass("reveal");
 });
 
+$("#loginButton").click(function(){
+    $(".modal").addClass("open");
+})
+$(".close").click(function(){
+    $(".modal").removeClass("open");
+})
 
 $(document).ready(function () {
     $(".logo").delay(1000).animate({ // parq logo animation

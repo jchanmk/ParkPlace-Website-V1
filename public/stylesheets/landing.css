@@ -5,10 +5,10 @@
 body{
   font-family: Open Sans;
 }
-.parent{
+/* .parent{ */
   /* margin-bottom: -31px; */
     /* margin-bottom: -91px; */
-}
+/* } */
 
 .desktopView{
   display: none;
@@ -269,6 +269,9 @@ body{
     height: 2.4em;
     -moz-border-radius: 50px;
 }
+#loginButton:focus{
+  outline: none;
+}
 
 
   #sidebar ul.components {
@@ -360,4 +363,6 @@ body{
       margin: 3%;
       padding-bottom: 150px;
   }
+
+  /* Login Form */
   

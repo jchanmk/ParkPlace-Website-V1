@@ -1,0 +1,41 @@
+<div id="id01" class="modal">
+    <form class="modal-content animate" action="/action_page.php">
+        <div class="loginBack">
+            <div class="imgcontainer">
+                <span class="close" title="Close Modal">&times;</span>
+                <h1>Welcome!</h1>
+                <img src="/Assets/LoginForm/uimage@3x.svg" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <!-- <label for="uname"><b>Username</b></label> -->
+                <input type="text" placeholder="Email" name="uname" required class="noselect">
+                <hr class="inputLine">
+                <!-- <label for="psw"><b>Password</b></label> -->
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <hr class="inputLine">
+                <div>
+                        <label class="switch">
+                                <input type="checkbox" name="remember"><span class="slider round"></span>
+                            </label>
+                            <span id="remember">Remember me</span>
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+                
+                <div class="formButtons">
+                    <button id="loginFormClick" type="submit">Login</button>
+                    <div>
+                        <img id="orLogin" src="/Assets/LoginForm/ORLogin.svg" alt="">
+                    </div>
+                    <button id="loginFormClick" type="submit">Login with Facebook</button>
+                    <div>
+                        <button id="signupFormClick" type="submit">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container" style="background-color:#f1f1f1"> -->
+            <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> -->
+            <!-- </div> -->
+        </div>
+    </form>
+</div>
