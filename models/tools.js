@@ -23,10 +23,23 @@ $("img#parqitPop, #parqitRead").hover(function () {
 
 $("#loginButton").click(function(){
     $(".modal").addClass("open");
-})
+});
+
+$("#signupFormClick").click(function(){
+    $(".modalSignup").addClass("open");
+    $(".modal").removeClass("open");
+});
+
 $(".close").click(function(){
     $(".modal").removeClass("open");
-})
+    $(".modalSignup").removeClass("open");
+});
+
+$("#returnToLogin").click(function(){
+    $(".modalSignup").removeClass("open");
+    $(".modal").addClass("open");
+
+});
 
 $(document).ready(function () {
     $(".logo").delay(1000).animate({ // parq logo animation
