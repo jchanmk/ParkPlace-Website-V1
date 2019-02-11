@@ -42,10 +42,10 @@ $("#returnToLogin").click(function(){
 });
 
 $(document).ready(function () {
-    $(".logo").delay(1000).animate({ // parq logo animation
-        top: '7em',
+    $(".logo").delay(9000).animate({ // parq logo animation
+        top: '6em',
         opacity: '1',
-    }, 500, "swing");
+    }, 800, "swing");
     if(screen.width === 768){   // ipad resizing
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').addClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').addClass('iPad');
