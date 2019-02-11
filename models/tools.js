@@ -50,13 +50,14 @@ $(document).ready(function () {
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').addClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').addClass('iPad');
         $('.quotesDiv, #sidebarMobile, #bookitReadMobile,   #parqitReadMobile, .readMoreButtonsMobile').addClass('iPad');
-        $('.loginBack, .container.loginForm, .wrapperMobile ').addClass('iPad');
+        $('.loginBack, .container.loginForm, .wrapperMobile, .loginBackMobile, .signupContent').addClass('iPad');
+        $('#signupFormClick2').addClass('iPad');
     }
     else{
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').removeClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').removeClass('iPad');
         $('.quotesDiv, #sidebarMobile, #bookitReadMobile,   #parqitReadMobile, .readMoreButtonsMobile').removeClass('iPad');
-        $('.loginBack, .container.loginForm, .wrapperMobile').removeClass('iPad');
+        $('#signupFormClick2').removeClass('iPad');
     }
     if(screen.width === 375){   // iphone6 resizing
         $('.stepsMobile').addClass('iPhone6');
@@ -75,29 +76,34 @@ $(document).ready(function () {
     
 });
 /////// Mobile  ////////////
-$('#dismiss, .overlay').on('click', function () {
-    // hide sidebar
-    $('.wrapperMobile').removeClass('active');
-    // hide overlay
-    $('.overlay').removeClass('active');
-    // adding button
-    $('#sidebarCollapse').removeClass('displayNone');
+// $('#dismiss, .overlay').on('click', function () {
+//     // hide sidebar
+//     $('.wrapperMobile').removeClass('active');
+//     // hide overlay
+//     $('.overlay').removeClass('active');
+//     // adding button
+//     $('#sidebarCollapse').removeClass('displayNone');
+// });
+
+$("#sidebarCollapse, #sidebarCollapse.iPad").hover(function () {
+    $(".wrapperMobile").toggleClass("active");
 });
 
-$('#sidebarCollapse, #sidebarCollapse.iPad').on('click', function () {
-    // open sidebar
-    $('.wrapperMobile').addClass('active');
-    // fade in the overlay
-    $('.overlay').addClass('active');
-    $('.collapse.in').toggleClass('in');
-    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-    // removing button 
-    // $('#sidebarCollapse').addClass('displayNone');
-    $('#sidebarCollapse').delay(500).queue(function(next){
-        $(this).addClass('displayNone');
-        next();
-    });
-});
+
+// $('#sidebarCollapse, #sidebarCollapse.iPad').on('click', function () {
+//     // open sidebar
+//     $('.wrapperMobile').addClass('active');
+//     // fade in the overlay
+//     $('.overlay').addClass('active');
+//     $('.collapse.in').toggleClass('in');
+//     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+//     // removing button 
+//     // $('#sidebarCollapse').addClass('displayNone');
+//     $('#sidebarCollapse').delay(500).queue(function(next){
+//         $(this).addClass('displayNone');
+//         next();
+//     });
+// });
 
 $("img#findItMobile").hover(function () {
     $("img#finditPopMobile, #finditReadMobile").toggleClass("reveal");
