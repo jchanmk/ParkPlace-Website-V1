@@ -17,7 +17,11 @@ app.get("/", function(req, res){
 
 app.get("/login", function(req, res){
     res.render("loginFormMobile")
-})
+});
+
+app.get("/signup", function(req, res){
+    res.render("signupFormMobile")
+});
 
 app.listen(process.env.PORT || 3000, function(){
     console.log("Parq server has started");

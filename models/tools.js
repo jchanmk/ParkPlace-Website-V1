@@ -42,7 +42,7 @@ $("#returnToLogin").click(function(){
 });
 
 $(document).ready(function () {
-    $(".logo").delay(9000).animate({ // parq logo animation
+    $(".logo").delay(7000).animate({ // parq logo animation
         top: '6em',
         opacity: '1',
     }, 800, "swing");
@@ -50,11 +50,13 @@ $(document).ready(function () {
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').addClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').addClass('iPad');
         $('.quotesDiv, #sidebarMobile, #bookitReadMobile,   #parqitReadMobile, .readMoreButtonsMobile').addClass('iPad');
+        $('.loginBack, .container.loginForm, .wrapperMobile ').addClass('iPad');
     }
     else{
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').removeClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').removeClass('iPad');
         $('.quotesDiv, #sidebarMobile, #bookitReadMobile,   #parqitReadMobile, .readMoreButtonsMobile').removeClass('iPad');
+        $('.loginBack, .container.loginForm, .wrapperMobile').removeClass('iPad');
     }
     if(screen.width === 375){   // iphone6 resizing
         $('.stepsMobile').addClass('iPhone6');
