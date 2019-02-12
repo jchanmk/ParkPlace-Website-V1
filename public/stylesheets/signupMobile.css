@@ -91,6 +91,9 @@ input[type=text].signupForm, input[type=password].signupForm {
    cursor: pointer;
    width: 40%;
 }
+#signupFormClick2.iPhone6{
+  margin-left: 4%;
+}
 
 #signupFormClick2.iPad{
     margin-left: 21%;

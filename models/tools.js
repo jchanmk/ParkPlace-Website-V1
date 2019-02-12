@@ -51,39 +51,41 @@ $(document).ready(function () {
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').addClass('iPad');
         $('.quotesDiv, #sidebarMobile, #bookitReadMobile,   #parqitReadMobile, .readMoreButtonsMobile').addClass('iPad');
         $('.loginBack, .container.loginForm, .wrapperMobile, .loginBackMobile, .signupContent').addClass('iPad');
-        $('#signupFormClick2').addClass('iPad');
+        $('#signupFormClick2, form h1').addClass('iPad');
     }
     else{
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').removeClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').removeClass('iPad');
         $('.quotesDiv, #sidebarMobile, #bookitReadMobile,   #parqitReadMobile, .readMoreButtonsMobile').removeClass('iPad');
-        $('#signupFormClick2').removeClass('iPad');
+        $('#signupFormClick2, form h1').removeClass('iPad');
     }
     if(screen.width === 375){   // iphone6 resizing
-        $('.stepsMobile').addClass('iPhone6');
+        $('.stepsMobile, span.psw, #signupFormClick2').addClass('iPhone6');
     }
     else{
-        $('.stepsMobile').removeClass('iPhone6');
+        $('.stepsMobile, span.psw, #signupFormClick2').removeClass('iPhone6');
     }
     if(screen.width === 320){   // iphone5 resizing
         $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p, #moneyButtonMobile, .readMoreButtonsMobile').addClass('iPhone5');
         $(' #parqItMobile, #parqitPopMobile, #parqitReadMobile, #quotesHeader, #quotesMobile').addClass('iPhone5');
+        $('.modal-content,  #signupFormClick, span.psw, .formButtons').addClass('iPhone5');
     }
     else{
         $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p, #moneyButtonMobile, .readMoreButtonsMobile').removeClass('iPhone5');
         $(' #parqItMobile, #parqitPopMobile, #parqitReadMobile, #quotesHeader, #quotesMobile').removeClass('iPhone5');
+        $('.modal-content,  #signupFormClick, span.psw, .formButtons').removeClass('iPhone5');
     }
     
 });
 /////// Mobile  ////////////
-// $('#dismiss, .overlay').on('click', function () {
-//     // hide sidebar
-//     $('.wrapperMobile').removeClass('active');
-//     // hide overlay
-//     $('.overlay').removeClass('active');
-//     // adding button
-//     $('#sidebarCollapse').removeClass('displayNone');
-// });
+$('#dismiss, .overlay').on('click', function () {
+    // hide sidebar
+    $('.wrapperMobile').removeClass('active');
+    // hide overlay
+    $('.overlay').removeClass('active');
+    // adding button
+    $('#sidebarCollapse').removeClass('displayNone');
+});
 
 $("#sidebarCollapse, #sidebarCollapse.iPad").hover(function () {
     $(".wrapperMobile").toggleClass("active");
