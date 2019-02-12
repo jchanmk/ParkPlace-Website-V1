@@ -29,7 +29,7 @@ input[type=text], input[type=password] {
   }
 
   #welcomeLogin{
-      padding-top: 15%;
+      padding-top: 12%;
   }
   /* input[type=text]::placeholder, input[type=password]::placeholder{
       color: white;
@@ -260,6 +260,7 @@ input[type=text], input[type=password] {
     align-items: stretch;
     font-weight: lighter;
     width:53%;
+    top: 84%;
     left: -450px;
     transition: all 0.3s ease-in-out;
   }
@@ -365,6 +366,10 @@ input[type=text], input[type=password] {
     width: 68%;
     /* height: 2.5em; */
     -moz-border-radius: 50px;
+}
+
+#sidebarMobile .sidebar-header #loginButton.iPhone5{
+  font-size: 88%;
 }
 
 

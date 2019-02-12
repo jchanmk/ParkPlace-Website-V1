@@ -68,12 +68,12 @@ $(document).ready(function () {
     if(screen.width === 320){   // iphone5 resizing
         $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p, #moneyButtonMobile, .readMoreButtonsMobile').addClass('iPhone5');
         $(' #parqItMobile, #parqitPopMobile, #parqitReadMobile, #quotesHeader, #quotesMobile').addClass('iPhone5');
-        $('.modal-content,  #signupFormClick, span.psw, .formButtons').addClass('iPhone5');
+        $('.modal-content,  #signupFormClick, span.psw, .formButtons, #sidebarMobile .sidebar-header #loginButton').addClass('iPhone5');
     }
     else{
         $('#sidebarMobile ul li a, #navBottomMobile img, #navBottomMobile p, #moneyButtonMobile, .readMoreButtonsMobile').removeClass('iPhone5');
         $(' #parqItMobile, #parqitPopMobile, #parqitReadMobile, #quotesHeader, #quotesMobile').removeClass('iPhone5');
-        $('.modal-content,  #signupFormClick, span.psw, .formButtons').removeClass('iPhone5');
+        $('.modal-content,  #signupFormClick, span.psw, .formButtons, #sidebarMobile .sidebar-header #loginButton').removeClass('iPhone5');
     }
     
 });
