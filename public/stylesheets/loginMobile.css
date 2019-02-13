@@ -63,10 +63,10 @@ input[type=text], input[type=password] {
   .slider:before {
     position: absolute;
     content: "";
-    height: 0.7em;
-    width: 0.72em;
-    left: 2px;
-    bottom: 1.5px;
+    height: 0.72em;
+    width: 0.77em;
+    left: 1px;
+    bottom: 1.55px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
@@ -101,7 +101,7 @@ input[type=text], input[type=password] {
   .switch {
     position: relative;
     display: inline-block;
-    width: 1.8em;
+    width: 1.7em;
     height: 0.9em;
     margin-left: 1.8%;
     margin-top: -5%;
@@ -141,7 +141,6 @@ input[type=text], input[type=password] {
   }
   .formButtons{
       /* padding: 5px; */
-      margin-top:5%
   }
 
   .formButtons.iPhone5{

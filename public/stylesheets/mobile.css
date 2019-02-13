@@ -209,7 +209,7 @@
      height: 39em;
  }
  #quotesMobile{
-     margin-top: 17%;
+     margin-top: 3%;
      margin-left: 8%;
      margin-right: 8%;
      width: 190%;
@@ -219,9 +219,11 @@
 }
 
  #quotesHeader{
-    position: absolute;
+    /* position: absolute; */
+    /* position: relative; */
     font-size: 125%;
-    margin-left: 20%;
+    /* margin-left: 20%; */
+    margin-left: 12%;
     font-weight: bold;
     color: #9A9A9A;
  }
