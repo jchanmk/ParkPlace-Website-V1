@@ -38,12 +38,69 @@ body{
   }
 }
 
-#temporarySearch{
-  font-size: 30px;
-  margin-left: 56%;
-  margin-top: 17%;
+#searchbar{
+  font-size: 16px;
+  margin-left: 2%;
+  margin-top: 0.9%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  position: relative;
+  width: 77%;
+  border: none;
+  /* border-radius: 30px; */
+}
+#searchbarRectangle{
+  margin-top: 15%;
+  margin-left: 43.5%;
+  width: 39%;
+  border-radius: 30px;
+  background-color: #183557;
+  height: 2.7em;
   position: relative;
 }
+#magnifyGlass{
+  color:white;
+  margin-left: 1.5%;
+  margin-top: -3%;
+}
+#searchbarText{
+  color: white;
+  position: relative;
+  margin-left: 3%;
+  font-weight: lighter;
+}
+#searchbarArrow{
+  color: white;
+  position: relative;
+  margin-left: 1%;
+  top: 6%;
+  font-size: 125%;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 14px;
+    padding-left: 1.5%;
+}
+input,
+input::-moz-placeholder{
+  font-size: 14px;
+  padding-left: 1.5%;
+
+}
+input,
+input:-moz-placeholder{
+  font-size: 14px;
+  padding-left: 1.5%;
+
+}
+input,
+input:-ms-input-placeholder{
+  font-size: 14px;
+  padding-left: 1.5%;
+
+}
+
 
 .row.one {
   margin-left: 40%;

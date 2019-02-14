@@ -10,7 +10,18 @@
                 <source src="/Assets/Backgrounds/Parq_NewWebsite_AnimationLayers_V3.mp4" type="video/mp4">
             </video>
             <img class="logo" src="/Assets/Backgrounds/Parq_logo2.png" alt="parqLogo">
-            <h2 id="temporarySearch">Search Address of Event</h2>
+            <!-- <h2 id="temporarySearch">Search Address of Event</h2> -->
+            <div class="box">
+                <div class="container-1">
+                    <div id="searchbarRectangle">
+                        <span id="searchbarText">Find it</span>
+                        <i class="fas fa-caret-right" id="searchbarArrow"></i>
+                        <input type="search" name="search" id="searchbar" placeholder="Search Address or Event">
+                        <i class="fas fa-search" id="magnifyGlass"></i>
+                    </div>
+                </div>
+            </div>
+
             <img id="noQuestion" src="/Assets/steps/noQuestion@2x.png" alt="">
             <div class="row one">
                 <span>
@@ -39,7 +50,7 @@
             <div class="row three">
                 <img class="testimonials" src="/Assets/Testimonials@2x.png" alt="">
             </div>
-            
+
             <% include ./partials/loginForm.ejs %>
             <% include ./partials/signupForm.ejs %>
 
@@ -97,7 +108,7 @@
         <div class="rowthreeMobile">
             <!-- <h3 id="quotesHeader">What the people are saying...</h3> -->
             <div class="quotesDiv">
-                    <h3 id="quotesHeader">What the people are saying...</h3>
+                <h3 id="quotesHeader">What the people are saying...</h3>
                 <img id="quotesMobile" src="/Assets/Mobile/quotes.svg" alt="">
             </div>
         </div>
