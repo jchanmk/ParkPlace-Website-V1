@@ -59,9 +59,15 @@ body{
   position: relative;
 }
 #magnifyGlass{
+  opacity: 0;
   color:white;
   margin-left: 1.5%;
   margin-top: -3%;
+}
+@media screen and (min-width: 1157px){
+  #magnifyGlass {
+    opacity: 1;
+  }
 }
 #searchbarText{
   color: white;
