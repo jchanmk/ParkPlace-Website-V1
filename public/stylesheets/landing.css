@@ -50,6 +50,7 @@ body{
   /* border-radius: 30px; */
 }
 #searchbarRectangle{
+  opacity: 0;
   margin-top: 15%;
   margin-left: 43.5%;
   width: 39%;
