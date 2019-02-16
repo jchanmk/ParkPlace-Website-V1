@@ -50,6 +50,9 @@ $(document).ready(function () {
         // top: '6em',
         opacity: '1',
     }, 800, "swing");
+    $(window).load(function(){
+        $('.desktopView').show();
+    });
     if(screen.width === 768){   // ipad resizing
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').addClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').addClass('iPad');
