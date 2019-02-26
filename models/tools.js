@@ -98,7 +98,7 @@ $("#sidebarCollapse, #sidebarCollapse.iPad").on('click', function () {
     $(".wrapperMobile").toggleClass("active");
 });
 
-$(".mobileParent, #rowtwoMobile, #rowthreeMobile, .loginBack, .loginBackMobile").on('click', function () {
+$(".mobileParent, #rowtwoMobile, #rowthreeMobile, .loginBack, .loginBackMobile, .quotesDiv").on('click', function () {
         $(".wrapperMobile").removeClass("active");
 });
 
