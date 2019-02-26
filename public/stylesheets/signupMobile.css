@@ -152,7 +152,6 @@ input[type=text].signupForm, input[type=password].signupForm {
 
 #dismiss{
     position: fixed;
-    top: 0;
 }
 #dismiss.iPad{
     width: 8%;
