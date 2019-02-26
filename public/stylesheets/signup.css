@@ -37,7 +37,7 @@
     opacity: 0.5;
 }
 input[type=text].signupForm, input[type=password].signupForm {
-    width: 100%;
+    width: 40%;
     padding: 1px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -46,7 +46,7 @@ input[type=text].signupForm, input[type=password].signupForm {
     box-sizing: border-box;
     background: none;
     color: white;
-    opacity: 0.5;
+    font-weight: lighter;
   }
 
   .agreeToTerms{

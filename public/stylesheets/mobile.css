@@ -3,13 +3,16 @@
       display: block;
     }
     body{
-      background-image: url(/Assets/Mobile/Background/mobileBackgroundUpper.svg), url(/Assets/Mobile/Background/Rectangle2@2x.png);
-      /* background-image: url(/Assets/Mobile/Background/mobileBackgroundUpper.svg), url(/Assets/Mobile/Background/Rectangle\ 1@2x.png); */
-      /* background-position: top 0 left 50%, top -81% left 50%; */
-        background-position: top 0 left 50%, top 129% left 50%;
+      background-image: url(/Assets/Mobile/Background/mobileBackgroundUpper2.svg), url(/Assets/Mobile/Background/Rectangle2@2x.png);
+      background-position: top 3% left 50%, top 129% left 50%;
       background-repeat: no-repeat, no-repeat;
-      background-size: 137.1%, 100%;
+      background-size: 102%, 100%;
     }
+  }
+  #mobileLogo{
+    margin-left: -18%;
+    padding-top: 5%;
+    width: 140%;
   }
   #temporarySearchMobile{
     font-size: 20px;
@@ -26,19 +29,17 @@
   margin-top: 1.05%;
   padding-top: 1.5%;
   padding-bottom: 1.1%;
-  position: relative;
   width: 85%;
   border: none;
   /* border-radius: 30px; */
 }
 #searchbarRectangleMobile{
-  margin-top: 85%;
+  margin-top: 10%;
   margin-left: 7.5%;
   width: 85%;
   border-radius: 30px;
   background-color: #183557;
   height: 2.7em;
-  position: relative;
 }
 #magnifyGlassMobile{
   color:white;
@@ -273,6 +274,7 @@
     position: fixed;
     align-items: stretch;
     font-weight: lighter;
+    /* margin-top: -85%; */
     width:53%;
     left: -450px;
     transition: all 0.3s ease-in-out;
@@ -306,7 +308,7 @@
     /* width: 19%; */
     /* margin-top: -63%; */
     /* margin-top: -161.2%;*/ /* for iphone 6 */
-    margin-top: -162%;
+    /* margin-top: -162%; */
     background: #2F4968;
     color: #fff;
     transition: all 0.3s;

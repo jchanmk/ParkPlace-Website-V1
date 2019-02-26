@@ -94,9 +94,17 @@ $('#dismiss, .overlay').on('click', function () {
     $('#sidebarCollapse').removeClass('displayNone');
 });
 
-$("#sidebarCollapse, #sidebarCollapse.iPad").hover(function () {
+$("#sidebarCollapse, #sidebarCollapse.iPad").on('click', function () {
     $(".wrapperMobile").toggleClass("active");
 });
+
+$(".mobileParent, #rowtwoMobile, #rowthreeMobile, .loginBack, .loginBackMobile").on('click', function () {
+        $(".wrapperMobile").removeClass("active");
+});
+// $(".mobileParent").on('click', function () {
+//         $(".wrapperMobile").removeClass("active");
+// });
+
 
 
 // $('#sidebarCollapse, #sidebarCollapse.iPad').on('click', function () {

@@ -9,15 +9,16 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
     background: none;
     color: white;
-    opacity: 0.5;
+    opacity: 1.5;
+    font-weight: lighter;
   }
   input:focus{
     outline: none;
   }
   .inputLine{
-      width: 96%;
+      width: 89%;
       margin-top: -1%;
-      margin-left: 1.7%;
+      margin-left: 4.7%;
       background-color: white;
       border-color: white;
       opacity: 0.5;
@@ -259,7 +260,8 @@ input[type=text], input[type=password] {
     align-items: stretch;
     font-weight: lighter;
     width:53%;
-    top: 84%;
+    /* top: 84%; */
+    top: 0;
     left: -450px;
     transition: all 0.3s ease-in-out;
   }
@@ -296,7 +298,7 @@ input[type=text], input[type=password] {
     /* width: 19%; */
     /* margin-top: -63%; */
     /* margin-top: -161.2%;*/ /* for iphone 6 */
-    margin-top: -295%;
+    /* margin-top: -295%; */
     background: #2F4968;
     color: #fff;
     transition: all 0.3s;
