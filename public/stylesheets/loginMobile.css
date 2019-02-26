@@ -286,7 +286,7 @@ input[type=text], input[type=password] {
 
 #dismiss{
     position: fixed;
-    top: 0;
+    /* top: 0; */
 }
 #dismiss.iPad{
     width: 8%;

@@ -101,6 +101,7 @@ $("#sidebarCollapse, #sidebarCollapse.iPad").on('click', function () {
 $(".mobileParent, #rowtwoMobile, #rowthreeMobile, .loginBack, .loginBackMobile").on('click', function () {
         $(".wrapperMobile").removeClass("active");
 });
+
 // $(".mobileParent").on('click', function () {
 //         $(".wrapperMobile").removeClass("active");
 // });
