@@ -23,6 +23,10 @@ app.get("/signup", function(req, res){
     res.render("signupFormMobile")
 });
 
+app.get("/becomehost", function(req, res){
+    res.render("becomeHostPage")
+})
+
 app.listen(process.env.PORT || 3000, function(){
     console.log("Parq server has started");
 }); 

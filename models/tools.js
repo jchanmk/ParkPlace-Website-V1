@@ -41,6 +41,13 @@ $("#returnToLogin").click(function(){
 
 });
 
+//scroll up function
+$("#backUp").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(".parent").offset().top
+    }, 2000);
+});
+
 $(document).ready(function () {
     $(".logo").delay(7000).animate({ // parq logo animation
         top: '6em',
