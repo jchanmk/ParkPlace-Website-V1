@@ -9,10 +9,13 @@
         crossorigin="anonymous">
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="/models/nav.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/public/stylesheets/becomeHostPage.css">
+    <link rel="stylesheet" href="/public/stylesheets/login.css">
+    <link rel="stylesheet" href="/public/stylesheets/signup.css">
     <title>Parq Home</title>
 </head>
 
@@ -21,7 +24,26 @@
         <div>
             <% include ./partials/sideNav %>
         </div>
+        <div class="noSpotFound">
+            <a href=""> <img id="plusSignSpot" src="/Assets/Backgrounds/becomeHost/addSpot.svg" alt=""></a>
+            <h4>No Space Found.</h4>
+        </div>
+        <div id="addSpotForm">
+            <form class="" action="/action_page.php">
+                <div>
+                    <p>Name Your Place</p>
+                    <input class="addSpotInputs" id="nameOfPlace" type="" placeholder="" name="uname" required class="">
+                </div>
+                <div>
+                    <p>Add Description</p>
+                    <input class="addSpotInputs" id="descOfPlace" type="" placeholder="" name="psw" required>
+                </div>
+            </form>
+        </div>
+
     </div>
+    <% include ./partials/loginForm.ejs %>
+    <% include ./partials/signupForm.ejs %>
 
 
 

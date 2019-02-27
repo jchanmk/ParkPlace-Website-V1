@@ -11,6 +11,44 @@
     }
   }
 
+  #plusSignSpot{
+      width: 14%;
+  }
+
+  .noSpotFound{
+      text-align: center;
+      margin-left: 19%;
+      padding-top: 25%;
+  }
+
+  .noSpotFound h4{
+      color: white;
+      margin-top: 2%;
+      font-size: 160%;
+  }
+
+  #addSpotForm{
+      width: 50%;
+      margin-left: 40%;
+      margin-top: 25%;
+      text-align: center;
+  }
+
+  .addSpotInputs{
+      width: 80%;
+      padding: 1.5%;
+  }
+
+
+
+
+
+
+
+
+
+
+/* NavBar */
   .wrapper {
     display: flex;
     position: fixed;
