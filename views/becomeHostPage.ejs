@@ -25,19 +25,39 @@
             <% include ./partials/sideNav %>
         </div>
         <div class="noSpotFound">
-            <a href=""> <img id="plusSignSpot" src="/Assets/Backgrounds/becomeHost/addSpot.svg" alt=""></a>
+            <a href=""> <img id="plusSignSpot" src="/Assets/BecomeHostPage/addSpot.svg" alt=""></a>
             <h4>No Space Found.</h4>
         </div>
         <div id="addSpotForm">
             <form class="" action="/action_page.php">
-                <div>
-                    <p>Name Your Place</p>
-                    <input class="addSpotInputs" id="nameOfPlace" type="" placeholder="" name="uname" required class="">
+                <p class="formHeadings">Name Your Place</p>
+                <input class="addSpotInputs" id="nameOfPlace" type="" placeholder="" name="uname" required class=""><br>
+                <p class="formHeadings">Add Description</p>
+                <!-- <input rows="2" cols="25" class="addSpotInputs" id="descOfPlace" type="" placeholder="" name="psw" required> -->
+                <textarea name="description" id="descOfPlace" class="addSpotInputs" cols="40" rows="5"></textarea>
+                <p class="formHeadings">Select Your Amenities</p>
+                <div id="selectAmeneties">
+                    <span class="amenityIcons"><img src="/Assets/BecomeHostPage/cctv@3x.svg" alt=""></span>
+                    <span class="amenityIcons"><img src="/Assets/BecomeHostPage/basement@3x.svg" alt=""></span>
+                    <span class="amenityIcons"><img src="/Assets/BecomeHostPage/shelter@3x.svg" alt=""></span>
+                    <span class="amenityIcons"><img src="/Assets/BecomeHostPage/guard@3x.svg" alt=""></span>
+                    <span class="amenityIcons"><img src="/Assets/BecomeHostPage/light@3x.svg" alt=""></span>
+                    <div id="amenityNameDiv">
+                        <span class="amenityNames" id="CCTVIcon">CCTV</span>
+                        <span class="amenityNames" id="BasementIcon">BASEMENT</span>
+                        <span class="amenityNames" id="ShelterIcon">SHELTER</span>
+                        <span class="amenityNames" id="GuardIcon">GUARD</span>
+                        <span class="amenityNames" id="LightIcon">LIGHT</span>
+                    </div>
                 </div>
-                <div>
-                    <p>Add Description</p>
-                    <input class="addSpotInputs" id="descOfPlace" type="" placeholder="" name="psw" required>
+                <p class="formHeadings" >What kind of space do you have?</p>
+                <p>Type of Space</p>
+                <div id="selectSpotType">
+                    <button type="button">Driveway</button>
+                    <button type="button">Garage</button>
+                    <button type="button">Commercial</button>
                 </div>
+
             </form>
         </div>
 

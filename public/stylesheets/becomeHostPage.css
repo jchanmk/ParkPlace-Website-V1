@@ -37,10 +37,63 @@
   .addSpotInputs{
       width: 80%;
       padding: 1.5%;
+      border: 1px solid rgba(0,0,0, 0.3);
+      border-radius: 7px;
+      margin-bottom: 5%;
   }
 
+  /* #nameOfPlace{
+  } */
 
+  #descOfPlace{
+      height: 100%; 
+  }
 
+  .formHeadings{
+    color:#9F9F9F;
+    font-size: 130%;
+  }
+
+  .amenityIcons{
+    padding: 4%;
+  }
+  .amenityIcons img{
+    width: 7%;
+    margin-bottom: 1%;
+  }
+
+  .amenityNames{
+    padding: 4%;
+    font-size: 100%;
+    font-weight: 300;    
+    color:#9F9F9F;
+  }
+
+  #amenityNameDiv{
+    margin-left: -1%;
+    margin-bottom: 5%;
+  }
+
+  #CCTVIcon{
+      
+  }
+  #BasementIcon{
+
+  }
+  #GuardIcon{
+
+  }
+  #ShelterIcon{
+
+  }
+  #LightIcon{
+    /* margin-left: 2%; */
+  }
+
+  #selectSpotType button{
+    background: white;
+    outline: none;
+  }
 
 
 
