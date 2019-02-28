@@ -48,6 +48,12 @@ $("#backUp").click(function() {
     }, 2000);
 });
 
+//Button highlight become host
+$(".spotTypeButtons").click(function(){
+    $(".spotTypeButtons").removeClass("active");
+    $(this).addClass("active");
+});
+
 $(document).ready(function () {
     $(".logo").delay(7000).animate({ // parq logo animation
         top: '6em',

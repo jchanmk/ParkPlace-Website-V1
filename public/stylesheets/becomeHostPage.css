@@ -8,6 +8,9 @@
       background-position: top 0% left 100%,top 40% left 100%;
       background-repeat: no-repeat, no-repeat;
       background-size: 82%, 44%;
+      font-family: Open Sans;
+      color:#9F9F9F;
+
     }
   }
 
@@ -38,7 +41,11 @@
       width: 80%;
       padding: 1.5%;
       border: 1px solid rgba(0,0,0, 0.3);
-      border-radius: 7px;
+      border-radius: 5px;
+      margin-bottom: 5%;
+  }
+
+  .formSections{
       margin-bottom: 5%;
   }
 
@@ -73,12 +80,28 @@
     margin-left: -1%;
     margin-bottom: 5%;
   }
-
-.btn.btn-default{
-    /* background: white; */
+  #spaceTypeText{
+      color: black;
+  }
+  
+  .btn.btn-default.active{
+    background: linear-gradient(#40DFFF, #2E66E6);
     outline: none;
-    /* border: 1px solid black;
-    margin: none; */
+    color: white;
+  }
+  .btn-default:hover{
+      color: #333;
+      border-color: #adadad;
+      background: none;
+  }
+  .btn:focus{
+    background: linear-gradient(#40DFFF, #2E66E6) !important;
+    outline: none !important;
+    border-color: #adadad;
+  }
+  
+  .spotTypeButtons{
+      width: 33.48%;
   }
 
   #drivewayButton{
@@ -87,6 +110,21 @@
 
   #garageButton{
       border-right: none;
+  }
+
+  #selectSpotType{
+      width: 60%;
+  }
+
+  #confirmSection{
+      font-size: 1.2em;
+  }
+  #confirmSectionText{
+      
+  }
+
+  #confirmSection input{
+      margin-right: 2%;
   }
 
 
@@ -98,7 +136,8 @@
     display: flex;
     position: fixed;
     align-items: stretch;
-    font-weight: lighter;
+    /* font-weight: lighter; */
+    font-weight: 300;
     width:19%;
   }
   
@@ -111,7 +150,7 @@
     background: #2F4968;
     color: #fff;
     transition: all 0.3s;
-    font-weight: 100;
+    /* font-weight: 100; */
     justify-content: center;
   }
   

@@ -31,7 +31,7 @@
         <div id="addSpotForm">
             <form class="" action="/action_page.php">
                 <p class="formHeadings">Name Your Place</p>
-                <input class="addSpotInputs" id="nameOfPlace" type="" placeholder="" name="uname" required class=""><br>
+                <input class="addSpotInputs" id="nameOfPlace" type="" placeholder="" name="name" required class=""><br>
                 <p class="formHeadings">Add Description</p>
                 <!-- <input rows="2" cols="25" class="addSpotInputs" id="descOfPlace" type="" placeholder="" name="psw" required> -->
                 <textarea name="description" id="descOfPlace" class="addSpotInputs" cols="40" rows="5"></textarea>
@@ -42,7 +42,7 @@
                     <span class="amenityIcons"><img src="/Assets/BecomeHostPage/shelter@3x.svg" alt=""></span>
                     <span class="amenityIcons"><img src="/Assets/BecomeHostPage/guard@3x.svg" alt=""></span>
                     <span class="amenityIcons"><img src="/Assets/BecomeHostPage/light@3x.svg" alt=""></span>
-                    <div id="amenityNameDiv">
+                    <div class="formSections" id="amenityNameDiv">
                         <span class="amenityNames" id="CCTVIcon">CCTV</span>
                         <span class="amenityNames" id="BasementIcon">BASEMENT</span>
                         <span class="amenityNames" id="ShelterIcon">SHELTER</span>
@@ -51,15 +51,21 @@
                     </div>
                 </div>
                 <p class="formHeadings">What kind of space do you have?</p>
-                <p>Type of Space</p>
-                <div id="selectSpotType">
-                    <div class="btn-group" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default">Driveway</button>
-                        <button type="button" class="btn btn-default">Garage</button>
-                        <button type="button" class="btn btn-default">Commercial</button>
+                <p id="spaceTypeText">Type of Space</p>
+                <div class="formSections">
+                    <div id="selectSpotType" class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default spotTypeButtons">Driveway</button>
+                        <button type="button" class="btn btn-default spotTypeButtons">Garage</button>
+                        <button type="button" class="btn btn-default spotTypeButtons">Commercial</button>
                     </div>
                 </div>
-
+                <p class="formHeadings">Number of Spaces</p>
+                <input class="addSpotInputs" id="numberOfSpaces" type="number" placeholder="" name="numSpots" required
+                    class=""><br>
+                <span id="confirmSection">
+                    <input type="checkbox" name="confirmOwner" id=""><span id="confirmSectionText">I confirm that I own this place</span> 
+                </span>
+                <input type="file" name="confirmOwner" id="" placeholder="hi">
 
             </form>
         </div>
