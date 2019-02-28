@@ -102,14 +102,13 @@
   
   .spotTypeButtons{
       width: 33.48%;
+      font-size: 100%;
   }
 
-  #drivewayButton{
-      border-right:none;
-  }
-
-  #garageButton{
-      border-right: none;
+  .garageButton.active{
+    background: linear-gradient(#40DFFF, #2E66E6);
+    outline: none;
+    color: white;
   }
 
   #selectSpotType{
@@ -119,14 +118,41 @@
   #confirmSection{
       font-size: 1.2em;
   }
-  #confirmSectionText{
-      
-  }
 
   #confirmSection input{
       margin-right: 2%;
   }
 
+  .inputFile{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+  }
+
+  #uploadFile{
+      width: 60%;
+      padding: 5%;
+      font-weight: 400;
+      font-size: 1.2em;
+      background:#F5F5F5;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 2px dashed #E9E9E9;
+  }
+
+  #uploadIcon{
+      font-size: 170%;
+      padding-right: 5%;
+  }
+
+  #formContinueButton{
+    background-color:#2E66E6;
+    width: 75%;
+    padding: 1.2%;
+  }
 
 
 

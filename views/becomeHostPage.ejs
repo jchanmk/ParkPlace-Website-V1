@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="/public/stylesheets/becomeHostPage.css">
     <link rel="stylesheet" href="/public/stylesheets/login.css">
     <link rel="stylesheet" href="/public/stylesheets/signup.css">
+    <link rel="stylesheet" href="/public/stylesheets/bottomNav.css">
     <title>Parq Home</title>
 </head>
 
@@ -55,21 +56,27 @@
                 <div class="formSections">
                     <div id="selectSpotType" class="btn-group" role="group" aria-label="...">
                         <button type="button" class="btn btn-default spotTypeButtons">Driveway</button>
-                        <button type="button" class="btn btn-default spotTypeButtons">Garage</button>
+                        <button type="button" class="btn btn-default spotTypeButtons garageButton active">Garage</button>
                         <button type="button" class="btn btn-default spotTypeButtons">Commercial</button>
                     </div>
                 </div>
                 <p class="formHeadings">Number of Spaces</p>
                 <input class="addSpotInputs" id="numberOfSpaces" type="number" placeholder="" name="numSpots" required
                     class=""><br>
-                <span id="confirmSection">
-                    <input type="checkbox" name="confirmOwner" id=""><span id="confirmSectionText">I confirm that I own this place</span> 
-                </span>
-                <input type="file" name="confirmOwner" id="" placeholder="hi">
-
+                <div class="formSections" id="confirmSection">
+                    <input type="checkbox" name="confirmOwner" id=""><span id="confirmSectionText">I confirm that I own
+                        this place</span>
+                </div>
+                <div class="formSections">
+                    <input type="file" name="file" id="file" class="inputFile" placeholder="hi">
+                    <label id="uploadFile" for="file"><i id="uploadIcon" class="fas fa-upload"></i>Upload Address Proof</label>
+                </div>
+                <div class="formSections">
+                    <button type="submit" class="btn btn-primary" id="formContinueButton">Continue</button>
+                </div>
             </form>
         </div>
-
+        <% include ./partials/bottomNav.ejs %>
     </div>
     <% include ./partials/loginForm.ejs %>
     <% include ./partials/signupForm.ejs %>

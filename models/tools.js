@@ -44,13 +44,13 @@ $("#returnToLogin").click(function(){
 //scroll up function
 $("#backUp").click(function() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $(".parent").offset().top
+        scrollTop: $(".parent, .becomeHostPage").offset().top
     }, 2000);
 });
 
-//Button highlight become host
+// Button highlight become host select spot type
 $(".spotTypeButtons").click(function(){
-    $(".spotTypeButtons").removeClass("active");
+    $(".spotTypeButtons, .garageButton").removeClass("active");
     $(this).addClass("active");
 });
 
