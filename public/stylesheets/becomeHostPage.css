@@ -74,28 +74,20 @@
     margin-bottom: 5%;
   }
 
-  #CCTVIcon{
-      
-  }
-  #BasementIcon{
-
-  }
-  #GuardIcon{
-
-  }
-  #ShelterIcon{
-
-  }
-  #LightIcon{
-    /* margin-left: 2%; */
-  }
-
-  #selectSpotType button{
-    background: white;
+.btn.btn-default{
+    /* background: white; */
     outline: none;
+    /* border: 1px solid black;
+    margin: none; */
   }
 
+  #drivewayButton{
+      border-right:none;
+  }
 
+  #garageButton{
+      border-right: none;
+  }
 
 
 
