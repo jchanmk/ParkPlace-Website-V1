@@ -1,3 +1,5 @@
+
+
 $("img#findIt").hover(function () {
     $("img#finditPop, #finditRead").toggleClass("reveal");
 });
@@ -47,6 +49,22 @@ $("#backUp").click(function() {
         scrollTop: $(".parent, .becomeHostPage").offset().top
     }, 2000);
 });
+
+$("#plusSignSpot").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#addSpotForm").offset().top-500
+    }, 800);
+
+    $("#carBecomeHost").addClass("carVisible");
+
+    $("#carBecomeHost").animate({ // parq logo animation
+       left: '39%',
+    }, 800, "swing");
+
+     $("#addSpotForm").addClass("postAnimation");
+});
+
+
 
 // Button highlight become host select spot type
 $(".spotTypeButtons").click(function(){

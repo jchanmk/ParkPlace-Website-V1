@@ -39,6 +39,10 @@ body{
   }
 }
 
+#backUp{
+  cursor: pointer;
+}
+
 #searchbar{
   font-size: 16px;
   margin-left: 2%;

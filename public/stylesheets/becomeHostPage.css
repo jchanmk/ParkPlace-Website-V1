@@ -13,9 +13,12 @@
 
     }
   }
-
+  #backUp{
+    cursor: pointer;
+  }
   #plusSignSpot{
       width: 14%;
+      cursor: pointer;
   }
 
   .noSpotFound{
@@ -30,11 +33,24 @@
       font-size: 160%;
   }
 
+  #carBecomeHost{
+      position: relative;
+      left: 99%;
+      display: none;
+      margin-top: 3%;
+  }
+  #carBecomeHost.carVisible{
+      display: block;
+  }
+
   #addSpotForm{
       width: 50%;
       margin-left: 40%;
       margin-top: 25%;
       text-align: center;
+  }
+  #addSpotForm.postAnimation{
+      margin-top: 5%;
   }
 
   .addSpotInputs{
