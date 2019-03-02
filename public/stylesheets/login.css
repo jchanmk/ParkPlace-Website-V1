@@ -112,7 +112,7 @@ input[type=text], input[type=password] {
     background-repeat: no-repeat;
     background-size: 39em;
     /* margin-top: -6%; */
-    border: 12px solid #707070;
+    border: 2px solid rgba(255, 255, 255, 0.5);
   }
   .formButtons{
       padding: 5px;
