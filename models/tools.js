@@ -50,12 +50,13 @@ $("#backUp").click(function() {
     }, 2000);
 });
 
-$("#plusSignSpot").click(function() {
+$("#plusSignSpot, #arrowDownBecomeHost").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#addSpotForm").offset().top-500
     }, 800);
 
     $("#carBecomeHost").addClass("carVisible");
+    $("#arrowDownBecomeHost").addClass("remove");
 
     $("#carBecomeHost").animate({ // parq logo animation
        left: '39%',

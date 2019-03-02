@@ -92,6 +92,8 @@ body{
 input,
 input::-webkit-input-placeholder {
     font-size: 14px;
+    /* color: white;
+    opacity: 0.6; */
     padding-left: 1.5%;
 }
 input,
