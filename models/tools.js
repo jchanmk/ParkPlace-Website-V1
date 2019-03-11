@@ -54,6 +54,7 @@ $("#plusSignSpot, #arrowDownBecomeHost").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#addSpotForm").offset().top-500
     }, 800);
+    $("#becomeHostTextBelowPlus").html("List your spot.");
 
     $("#carBecomeHost").addClass("carVisible");
     $("#arrowDownBecomeHost").addClass("remove");
