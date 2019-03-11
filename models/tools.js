@@ -74,6 +74,44 @@ $(".spotTypeButtons").click(function(){
     $(this).addClass("active");
 });
 
+// Select Amentities - Become a host page
+// $("#CCTVIconImg").click(function(){
+//     if($("#CCTVIconImg").attr("src") === "/Assets/BecomeHostPage/cctv@3x.svg"){
+//         $("#CCTVIconImg").attr("src", "/Assets/BecomeHostPage/cctv_slt@3x.svg");
+//     }else{
+//         $("#CCTVIconImg").attr("src", "/Assets/BecomeHostPage/cctv@3x.svg");
+//     }
+// });
+$(".amenityIconsImg").click(function(){
+    if($(this).attr("src") === "/Assets/BecomeHostPage/cctv@3x.svg"){
+        $("#CCTVIconImg").attr("src", "/Assets/BecomeHostPage/cctv_slt@3x.svg");
+    }else{
+        $("#CCTVIconImg").attr("src", "/Assets/BecomeHostPage/cctv@3x.svg");
+    }
+    if($(this).attr("src") === "/Assets/BecomeHostPage/basement@3x.svg"){
+        $("#BasementIconImg").attr("src", "/Assets/BecomeHostPage/basement_slt@3x.svg");
+    }else{
+        $("#BasementIconImg").attr("src", "/Assets/BecomeHostPage/basement@3x.svg");
+    }
+    if($(this).attr("src") === "/Assets/BecomeHostPage/shelter@3x.svg"){
+        $("#ShelterIconImg").attr("src", "/Assets/BecomeHostPage/shelter_slt@3x.svg");
+    }else{
+        $("#ShelterIconImg").attr("src", "/Assets/BecomeHostPage/shelter@3x.svg");
+    }
+    if($(this).attr("src") === "/Assets/BecomeHostPage/guard@3x.svg"){
+        $("#GuardIconImg").attr("src", "/Assets/BecomeHostPage/guard_slt@3x.svg");
+    }else{
+        $("#GuardIconImg").attr("src", "/Assets/BecomeHostPage/guard@3x.svg");
+    }
+    if($(this).attr("src") === "/Assets/BecomeHostPage/light@3x.svg"){
+        $("#LightIconImg").attr("src", "/Assets/BecomeHostPage/light_slt@3x.svg");
+    }else{
+        $("#LightIconImg").attr("src", "/Assets/BecomeHostPage/light@3x.svg");
+    }
+
+});
+
+
 $(document).ready(function () {
     $(".logo").delay(7000).animate({ // parq logo animation
         top: '6em',

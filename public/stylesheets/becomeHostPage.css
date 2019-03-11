@@ -99,10 +99,19 @@
   }
 
   .amenityNames{
-    padding: 4%;
+    padding: 3.5%;
+    padding-top: 0;
     font-size: 100%;
     font-weight: 300;    
     color:#9F9F9F;
+  }
+
+  #CCTVIcon{
+      margin-right:1%;
+  }
+
+  #LightIcon{
+      margin-left: 2%;
   }
 
   #amenityNameDiv{
