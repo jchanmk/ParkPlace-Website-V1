@@ -219,16 +219,16 @@
 }
 
 #formContinueButton{
-  width: 60%;
+  width: 75%;
   padding: 1.5%;
   background-color:#2E66E6;
 }
-
-
   #formContinueSubmit{
     background-color:#2E66E6;
     width: 75%;
     padding: 1.2%;
+    display: none;
+    margin-left: 13%;
   }
 
 

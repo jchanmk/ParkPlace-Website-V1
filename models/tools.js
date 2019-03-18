@@ -106,6 +106,9 @@ $("#formContinueButton").click(function(){
     if($("#nameOfPlace").val()!="" || $("#descOfPlace").val()!="" || $("#numberOfSpaces").val()!=""){
         $("#formFirst").css("display", "none");
         $("#formSecond").css("display", "block");
+        $("#formContinueButton").css("display", "none");
+        $("#formContinueSubmit").css("display", "block");
+
     }
   
 });
