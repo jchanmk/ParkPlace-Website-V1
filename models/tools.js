@@ -74,14 +74,6 @@ $(".spotTypeButtons").click(function(){
     $(this).addClass("active");
 });
 
-// Select Amentities - Become a host page
-// $("#CCTVIconImg").click(function(){
-//     if($("#CCTVIconImg").attr("src") === "/Assets/BecomeHostPage/cctv@3x.svg"){
-//         $("#CCTVIconImg").attr("src", "/Assets/BecomeHostPage/cctv_slt@3x.svg");
-//     }else{
-//         $("#CCTVIconImg").attr("src", "/Assets/BecomeHostPage/cctv@3x.svg");
-//     }
-// });
 $(".amenityIconsImg").click(function(){
     if($(this).attr("src") === "/Assets/BecomeHostPage/cctv@3x.svg"){
         $("#CCTVIconImg").attr("src", "/Assets/BecomeHostPage/cctv_slt@3x.svg");
@@ -108,7 +100,14 @@ $(".amenityIconsImg").click(function(){
     }else{
         $("#LightIconImg").attr("src", "/Assets/BecomeHostPage/light@3x.svg");
     }
+});
 
+$("#formContinueButton").click(function(){
+    if($("#nameOfPlace").val()!="" || $("#descOfPlace").val()!="" || $("#numberOfSpaces").val()!=""){
+        $("#formFirst").css("display", "none");
+        $("#formSecond").css("display", "block");
+    }
+  
 });
 
 

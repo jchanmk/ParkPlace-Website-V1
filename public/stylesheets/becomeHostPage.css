@@ -59,7 +59,7 @@
       width: 50%;
       margin-left: 40%;
       /* margin-top: 25%; */
-      margin-top: 5%;
+      margin-top: 8%;
       text-align: center;
   }
   #addSpotForm.postAnimation{
@@ -96,6 +96,7 @@
   .amenityIcons img{
     width: 7%;
     margin-bottom: 1%;
+    cursor: pointer;
   }
 
   .amenityNames{
@@ -189,7 +190,42 @@
       padding-right: 5%;
   }
 
-  #formContinueButton{
+  #formTwoHeading{
+    font-weight: bold;
+  }
+
+  #uploadImage{
+    width: 60%;
+    padding: 13%;
+    font-weight: 400;
+    font-size: 1.2em;
+    background:#F5F5F5;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px dashed #E9E9E9;
+    margin-bottom: 5%;
+}
+
+#uploadIconImage{
+  width: 50%;
+  margin-left: 10%;
+}
+#formFirst{
+  display: visible;
+}
+
+#formSecond{
+  display: none;
+}
+
+#formContinueButton{
+  width: 60%;
+  padding: 1.5%;
+  background-color:#2E66E6;
+}
+
+
+  #formContinueSubmit{
     background-color:#2E66E6;
     width: 75%;
     padding: 1.2%;

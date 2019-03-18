@@ -36,50 +36,66 @@
             <i id="arrowDownBecomeHost" class="fas fa-angle-down"></i>
         </div>
         <div id="addSpotForm">
-            <form class="" action="/action_page.php">
-                <p class="formHeadings">Name Your Place</p>
-                <input class="addSpotInputs" id="nameOfPlace" type="" placeholder="" name="name" required class=""><br>
-                <p class="formHeadings">Add Description</p>
-                <!-- <input rows="2" cols="25" class="addSpotInputs" id="descOfPlace" type="" placeholder="" name="psw" required> -->
-                <textarea name="description" id="descOfPlace" class="addSpotInputs" cols="40" rows="5" required></textarea>
-                <p class="formHeadings">Select Your Amenities</p>
-                <div id="selectAmeneties">
-                    <span class="amenityIcons"><img class="amenityIconsImg" id="CCTVIconImg" src="/Assets/BecomeHostPage/cctv@3x.svg" alt=""></span>
-                    <span class="amenityIcons"><img class="amenityIconsImg" id="BasementIconImg" src="/Assets/BecomeHostPage/basement@3x.svg" alt=""></span>
-                    <span class="amenityIcons"><img class="amenityIconsImg" id="ShelterIconImg" src="/Assets/BecomeHostPage/shelter@3x.svg" alt=""></span>
-                    <span class="amenityIcons"><img class="amenityIconsImg" id="GuardIconImg" src="/Assets/BecomeHostPage/guard@3x.svg" alt=""></span>
-                    <span class="amenityIcons"><img class="amenityIconsImg" id="LightIconImg" src="/Assets/BecomeHostPage/light@3x.svg" alt=""></span>
-                    <div class="formSections" id="amenityNameDiv">
-                        <span class="amenityNames" id="CCTVIcon">CCTV</span>
-                        <span class="amenityNames" id="BasementIcon">BASEMENT</span>
-                        <span class="amenityNames" id="ShelterIcon">SHELTER</span>
-                        <span class="amenityNames" id="GuardIcon">GUARD</span>
-                        <span class="amenityNames" id="LightIcon">LIGHT</span>
+            <form name="becomeHostForm" class="" action="/action_page.php">
+                <div id="formFirst">
+                    <p class="formHeadings">Name Your Place</p>
+                    <input class="addSpotInputs" id="nameOfPlace" type="" placeholder="" required class=""><br>
+                    <p class="formHeadings">Add Description</p>
+                    <!-- <input rows="2" cols="25" class="addSpotInputs" id="descOfPlace" type="" placeholder="" name="psw" required> -->
+                    <textarea id="descOfPlace" class="addSpotInputs" cols="40" rows="5" required></textarea>
+                    <p class="formHeadings">Select Your Amenities</p>
+                    <div id="selectAmeneties">
+                        <span class="amenityIcons"><img class="amenityIconsImg" id="CCTVIconImg" src="/Assets/BecomeHostPage/cctv@3x.svg"
+                                alt=""></span>
+                        <span class="amenityIcons"><img class="amenityIconsImg" id="BasementIconImg" src="/Assets/BecomeHostPage/basement@3x.svg"
+                                alt=""></span>
+                        <span class="amenityIcons"><img class="amenityIconsImg" id="ShelterIconImg" src="/Assets/BecomeHostPage/shelter@3x.svg"
+                                alt=""></span>
+                        <span class="amenityIcons"><img class="amenityIconsImg" id="GuardIconImg" src="/Assets/BecomeHostPage/guard@3x.svg"
+                                alt=""></span>
+                        <span class="amenityIcons"><img class="amenityIconsImg" id="LightIconImg" src="/Assets/BecomeHostPage/light@3x.svg"
+                                alt=""></span>
+                        <div class="formSections" id="amenityNameDiv">
+                            <span class="amenityNames" id="CCTVIcon">CCTV</span>
+                            <span class="amenityNames" id="BasementIcon">BASEMENT</span>
+                            <span class="amenityNames" id="ShelterIcon">SHELTER</span>
+                            <span class="amenityNames" id="GuardIcon">GUARD</span>
+                            <span class="amenityNames" id="LightIcon">LIGHT</span>
+                        </div>
+                    </div>
+                    <p class="formHeadings">What kind of space do you have?</p>
+                    <p id="spaceTypeText">Type of Space</p>
+                    <div class="formSections">
+                        <div id="selectSpotType" class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default spotTypeButtons">Driveway</button>
+                            <button type="button" class="btn btn-default spotTypeButtons garageButton active">Garage</button>
+                            <button type="button" class="btn btn-default spotTypeButtons">Commercial</button>
+                        </div>
+                    </div>
+                    <p class="formHeadings">Number of Spaces</p>
+                    <input class="addSpotInputs" id="numberOfSpaces" type="number" placeholder="" 
+                        required class=""><br>
+                    <div class="formSections" id="confirmSection">
+                        <input type="checkbox" name="confirmOwner" id=""><span id="confirmSectionText">I confirm that I
+                            own
+                            this place</span>
+                    </div>
+                    <div class="formSections">
+                        <input type="file"  id="file" class="inputFile" >
+                        <label id="uploadFile" for="file"><i id="uploadIcon" class="fas fa-upload"></i>Upload Address Proof</label>
                     </div>
                 </div>
-                <p class="formHeadings">What kind of space do you have?</p>
-                <p id="spaceTypeText">Type of Space</p>
-                <div class="formSections">
-                    <div id="selectSpotType" class="btn-group" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default spotTypeButtons">Driveway</button>
-                        <button type="button" class="btn btn-default spotTypeButtons garageButton active">Garage</button>
-                        <button type="button" class="btn btn-default spotTypeButtons">Commercial</button>
-                    </div>
-                </div>
-                <p class="formHeadings">Number of Spaces</p>
-                <input class="addSpotInputs" id="numberOfSpaces" type="number" placeholder="" name="numSpots" required
-                    class=""><br>
-                <div class="formSections" id="confirmSection">
-                    <input type="checkbox" name="confirmOwner" id=""><span id="confirmSectionText">I confirm that I own
-                        this place</span>
-                </div>
-                <div class="formSections">
+                <div id="formSecond">
+                    <h3 id="formTwoHeading">Upload Image</h2>
                     <input type="file" name="file" id="file" class="inputFile" placeholder="hi">
-                    <label id="uploadFile" for="file"><i id="uploadIcon" class="fas fa-upload"></i>Upload Address Proof</label>
+                    <label id="uploadImage" for="file"><img id="uploadIconImage" src="/Assets/BecomeHostPage/addimage@3x.svg" alt=""></label>
                 </div>
                 <div class="formSections">
-                    <button type="submit" class="btn btn-primary" id="formContinueButton">Continue</button>
+                    <!-- <button type="" class="btn btn-primary" id="formContinueButton">Continue</button> -->
+                    <a role="button" id="formContinueButton" class="btn btn-primary" >Continue</a>
                 </div>
+
+
             </form>
         </div>
         <% include ./partials/bottomNav.ejs %>
