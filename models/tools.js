@@ -102,7 +102,16 @@ $(".amenityIconsImg").click(function(){
     }
 });
 
-$("#formContinueButton").click(function(){
+// $("#formContinueButton").click(function(){
+//     if($("#nameOfPlace").val()!="" || $("#descOfPlace").val()!="" || $("#numberOfSpaces").val()!=""){
+//         $("#formFirst").css("display", "none");
+//         $("#formSecond").css("display", "block");
+//         $("#formContinueButton").css("display", "none");
+//         $("#formContinueSubmit").css("display", "block");
+
+//     }
+// });
+function formContinue(){
     if($("#nameOfPlace").val()!="" || $("#descOfPlace").val()!="" || $("#numberOfSpaces").val()!=""){
         $("#formFirst").css("display", "none");
         $("#formSecond").css("display", "block");
@@ -110,8 +119,8 @@ $("#formContinueButton").click(function(){
         $("#formContinueSubmit").css("display", "block");
 
     }
-  
-});
+};
+
 
 
 $(document).ready(function () {
