@@ -1,65 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="503.542" height="186.289" viewBox="0 0 503.542 186.289">
-  <defs>
-    <style>
-      .cls-1, .cls-4, .cls-5, .cls-6 {
-        fill: #9a9a9a;
-      }
-
-      .cls-1, .cls-4 {
-        font-size: 12px;
-      }
-
-      .cls-1, .cls-5 {
-        font-family: Helvetica-Bold, Helvetica;
-        font-weight: 700;
-      }
-
-      .cls-2 {
-        fill: #3b55e6;
-      }
-
-      .cls-3 {
-        fill: #fff;
-        fill-rule: evenodd;
-      }
-
-      .cls-4, .cls-6 {
-        font-family: Helvetica;
-      }
-
-      .cls-5 {
-        font-size: 14px;
-      }
-
-      .cls-6 {
-        font-size: 11px;
-      }
-    </style>
-  </defs>
   <g id="quotes" transform="translate(-4454.386 -5859.789)">
-    <text id="Property_Owner" data-name="Property Owner" class="cls-1" transform="translate(4711.876 5916.284)"><tspan x="3.135" y="9">Property Owner</tspan></text>
+    <text id="Property_Owner" data-name="Property Owner" transform="translate(4711.876 5916.284)" fill="#9a9a9a" font-size="12" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="3.135" y="9">Property Owner</tspan></text>
     <g id="Group_169" data-name="Group 169" transform="translate(4727.835 5859.789)">
-      <path id="Path_1" data-name="Path 1" class="cls-2" d="M26.373,0A26.373,26.373,0,1,1,0,26.373,26.373,26.373,0,0,1,26.373,0Z" transform="translate(0)"/>
-      <path id="Icon_User" data-name="Icon User" class="cls-3" d="M12.491,24.438h-.547C.023,24.437,0,24.365,0,19.715A4.827,4.827,0,0,1,4.59,14.868c3.164,0,3.992,1.307,7.467,1.45,3.767-.067,4.5-1.473,7.786-1.473a4.834,4.834,0,0,1,4.585,4.86C24.427,24.365,24.408,24.437,12.491,24.438ZM12.42,13.645c-3.009,0-5.448-3.055-5.448-6.822S9.411,0,12.42,0s5.448,3.055,5.448,6.823S15.429,13.645,12.42,13.645Z" transform="translate(14.157 14.158)"/>
+      <path id="Path_1" data-name="Path 1" d="M26.373,0A26.373,26.373,0,1,1,0,26.373,26.373,26.373,0,0,1,26.373,0Z" transform="translate(0)" fill="#3b55e6"/>
+      <path id="Icon_User" data-name="Icon User" d="M12.491,24.438h-.547C.023,24.437,0,24.365,0,19.715A4.827,4.827,0,0,1,4.59,14.868c3.164,0,3.992,1.307,7.467,1.45,3.767-.067,4.5-1.473,7.786-1.473a4.834,4.834,0,0,1,4.585,4.86C24.427,24.365,24.408,24.437,12.491,24.438ZM12.42,13.645c-3.009,0-5.448-3.055-5.448-6.822S9.411,0,12.42,0s5.448,3.055,5.448,6.823S15.429,13.645,12.42,13.645Z" transform="translate(14.157 14.158)" fill="#fff" fill-rule="evenodd"/>
     </g>
-    <text id="_This_is_simply_the_Air_BnB_for_parking_and_I_couldn_t_be_happier_it_exists_" data-name="“ This is simply the Air BnB for parking and I couldn’t be happier it exists”" class="cls-4" transform="translate(4454.386 5940.839)"><tspan x="0" y="9">“ This is simply the </tspan><tspan x="0" y="23">Air BnB for parking </tspan><tspan x="0" y="37">and I couldn’t be </tspan><tspan x="0" y="51">happier it exists”</tspan></text>
-    <text id="_I_used_Parq_to_try_and_impress_a_client_by_being_forward_thinking_for_a_hockey_game._Best_decision_I_ever_made._" data-name="“ I used Parq to try and impress a client by being forward thinking for a hockey game. Best decision I ever made.”" class="cls-4" transform="translate(4579.825 5940.69)"><tspan x="0" y="9">“ I used Parq to try </tspan><tspan x="0" y="23">and impress a client </tspan><tspan x="0" y="37">by being forward </tspan><tspan x="0" y="51">thinking for a </tspan><tspan x="0" y="65">hockey game. Best </tspan><tspan x="0" y="79">decision I ever </tspan><tspan x="0" y="93">made.”</tspan></text>
-    <text id="Student" class="cls-5" transform="translate(4454.774 5916.284)"><tspan x="11.095" y="11">Student</tspan></text>
-    <text id="Professional" class="cls-5" transform="translate(4579.825 5916.284)"><tspan x="2.133" y="11">Professional</tspan></text>
+    <text id="_This_is_simply_the_Air_BnB_for_parking_and_I_couldn_t_be_happier_it_exists_" data-name="“ This is simply the Air BnB for parking and I couldn’t be happier it exists”" transform="translate(4454.386 5940.839)" fill="#9a9a9a" font-size="12" font-family="Helvetica"><tspan x="0" y="9">“ This is simply the </tspan><tspan x="0" y="23">Air BnB for parking </tspan><tspan x="0" y="37">and I couldn’t be </tspan><tspan x="0" y="51">happier it exists”</tspan></text>
+    <text id="_I_used_ParkPlace_to_try_and_impress_a_client_by_being_forward_thinking_for_a_hockey_game._Best_decision_I_ever_made._" data-name="“ I used ParkPlace to try and impress a client by being forward thinking for a hockey game. Best decision I ever made.”" transform="translate(4579.825 5940.69)" fill="#9a9a9a" font-size="12" font-family="Helvetica"><tspan x="0" y="9">“ I used ParkPlace </tspan><tspan x="0" y="23">to try and impress a </tspan><tspan x="0" y="37">client by being </tspan><tspan x="0" y="51">forward thinking for </tspan><tspan x="0" y="65">a hockey game. </tspan><tspan x="0" y="79">Best decision I ever </tspan><tspan x="0" y="93">made.”</tspan></text>
+    <text id="Student" transform="translate(4454.774 5916.284)" fill="#9a9a9a" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="11.095" y="11">Student</tspan></text>
+    <text id="Professional" transform="translate(4579.825 5916.284)" fill="#9a9a9a" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="2.133" y="11">Professional</tspan></text>
     <g id="Group_167" data-name="Group 167" transform="translate(4465.366 5859.789)">
-      <path id="Path_1-2" data-name="Path 1" class="cls-2" d="M26.373,0A26.373,26.373,0,1,1,0,26.373,26.373,26.373,0,0,1,26.373,0Z"/>
-      <path id="Icon_User-2" data-name="Icon User" class="cls-3" d="M12.491,24.438h-.547C.023,24.437,0,24.365,0,19.715A4.827,4.827,0,0,1,4.59,14.868c3.164,0,3.992,1.307,7.467,1.45,3.767-.067,4.5-1.473,7.786-1.473a4.834,4.834,0,0,1,4.585,4.86C24.427,24.365,24.408,24.437,12.491,24.438ZM12.42,13.645c-3.009,0-5.448-3.055-5.448-6.822S9.411,0,12.42,0s5.448,3.055,5.448,6.823S15.429,13.645,12.42,13.645Z" transform="translate(14.157 14.158)"/>
+      <path id="Path_1-2" data-name="Path 1" d="M26.373,0A26.373,26.373,0,1,1,0,26.373,26.373,26.373,0,0,1,26.373,0Z" fill="#3b55e6"/>
+      <path id="Icon_User-2" data-name="Icon User" d="M12.491,24.438h-.547C.023,24.437,0,24.365,0,19.715A4.827,4.827,0,0,1,4.59,14.868c3.164,0,3.992,1.307,7.467,1.45,3.767-.067,4.5-1.473,7.786-1.473a4.834,4.834,0,0,1,4.585,4.86C24.427,24.365,24.408,24.437,12.491,24.438ZM12.42,13.645c-3.009,0-5.448-3.055-5.448-6.822S9.411,0,12.42,0s5.448,3.055,5.448,6.823S15.429,13.645,12.42,13.645Z" transform="translate(14.157 14.158)" fill="#fff" fill-rule="evenodd"/>
     </g>
     <g id="Group_168" data-name="Group 168" transform="translate(4597.407 5859.789)">
-      <path id="Path_1-3" data-name="Path 1" class="cls-2" d="M26.373,0A26.373,26.373,0,1,1,0,26.373,26.373,26.373,0,0,1,26.373,0Z"/>
-      <path id="Icon_User-3" data-name="Icon User" class="cls-3" d="M12.491,24.438h-.547C.023,24.437,0,24.365,0,19.715A4.827,4.827,0,0,1,4.59,14.868c3.164,0,3.992,1.307,7.467,1.45,3.767-.067,4.5-1.473,7.786-1.473a4.834,4.834,0,0,1,4.585,4.86C24.427,24.365,24.408,24.437,12.491,24.438ZM12.42,13.645c-3.009,0-5.448-3.055-5.448-6.822S9.411,0,12.42,0s5.448,3.055,5.448,6.823S15.429,13.645,12.42,13.645Z" transform="translate(14.157 14.158)"/>
+      <path id="Path_1-3" data-name="Path 1" d="M26.373,0A26.373,26.373,0,1,1,0,26.373,26.373,26.373,0,0,1,26.373,0Z" fill="#3b55e6"/>
+      <path id="Icon_User-3" data-name="Icon User" d="M12.491,24.438h-.547C.023,24.437,0,24.365,0,19.715A4.827,4.827,0,0,1,4.59,14.868c3.164,0,3.992,1.307,7.467,1.45,3.767-.067,4.5-1.473,7.786-1.473a4.834,4.834,0,0,1,4.585,4.86C24.427,24.365,24.408,24.437,12.491,24.438ZM12.42,13.645c-3.009,0-5.448-3.055-5.448-6.822S9.411,0,12.42,0s5.448,3.055,5.448,6.823S15.429,13.645,12.42,13.645Z" transform="translate(14.157 14.158)" fill="#fff" fill-rule="evenodd"/>
     </g>
-    <text id="_Leasing_my_driveway_while_I_m_at_work_just_paid_for_my_vacation._I_didn_t_even_have_to_do_anything_after_set-up._" data-name="“ Leasing my driveway while I’m at work just paid for my vacation. I didn’t even have to do anything after set-up.”" class="cls-6" transform="translate(4716.876 5941.078)"><tspan x="0" y="8">“ Leasing my </tspan><tspan x="0" y="21">driveway while I’m at </tspan><tspan x="0" y="34">work just paid for my </tspan><tspan x="0" y="47">vacation. I didn’t even </tspan><tspan x="0" y="60">have to do anything </tspan><tspan x="0" y="73">after set-up.”</tspan></text>
-    <text id="Professor" class="cls-1" transform="translate(4849.928 5916.284)"><tspan x="9.136" y="9">Professor</tspan></text>
+    <text id="_Leasing_my_driveway_while_I_m_at_work_just_paid_for_my_vacation._I_didn_t_even_have_to_do_anything_after_set-up._" data-name="“ Leasing my driveway while I’m at work just paid for my vacation. I didn’t even have to do anything after set-up.”" transform="translate(4716.876 5941.078)" fill="#9a9a9a" font-size="11" font-family="Helvetica"><tspan x="0" y="8">“ Leasing my </tspan><tspan x="0" y="21">driveway while I’m at </tspan><tspan x="0" y="34">work just paid for my </tspan><tspan x="0" y="47">vacation. I didn’t even </tspan><tspan x="0" y="60">have to do anything </tspan><tspan x="0" y="73">after set-up.”</tspan></text>
+    <text id="Professor" transform="translate(4849.928 5916.284)" fill="#9a9a9a" font-size="12" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="9.136" y="9">Professor</tspan></text>
     <g id="Group_170" data-name="Group 170" transform="translate(4860.1 5859.789)">
-      <path id="Path_1-4" data-name="Path 1" class="cls-2" d="M26.373,0A26.373,26.373,0,1,1,0,26.373,26.373,26.373,0,0,1,26.373,0Z" transform="translate(0)"/>
-      <path id="Icon_User-4" data-name="Icon User" class="cls-3" d="M12.491,24.438h-.547C.023,24.437,0,24.365,0,19.715A4.827,4.827,0,0,1,4.59,14.868c3.164,0,3.992,1.307,7.467,1.45,3.767-.067,4.5-1.473,7.786-1.473a4.834,4.834,0,0,1,4.585,4.86C24.427,24.365,24.408,24.437,12.491,24.438ZM12.42,13.645c-3.009,0-5.448-3.055-5.448-6.822S9.411,0,12.42,0s5.448,3.055,5.448,6.823S15.429,13.645,12.42,13.645Z" transform="translate(14.157 14.158)"/>
+      <path id="Path_1-4" data-name="Path 1" d="M26.373,0A26.373,26.373,0,1,1,0,26.373,26.373,26.373,0,0,1,26.373,0Z" transform="translate(0)" fill="#3b55e6"/>
+      <path id="Icon_User-4" data-name="Icon User" d="M12.491,24.438h-.547C.023,24.437,0,24.365,0,19.715A4.827,4.827,0,0,1,4.59,14.868c3.164,0,3.992,1.307,7.467,1.45,3.767-.067,4.5-1.473,7.786-1.473a4.834,4.834,0,0,1,4.585,4.86C24.427,24.365,24.408,24.437,12.491,24.438ZM12.42,13.645c-3.009,0-5.448-3.055-5.448-6.822S9.411,0,12.42,0s5.448,3.055,5.448,6.823S15.429,13.645,12.42,13.645Z" transform="translate(14.157 14.158)" fill="#fff" fill-rule="evenodd"/>
     </g>
-    <text id="_I_go_to_campus_two-days_a_week_and_don_t_want_to_pay_for_a_parking_permit._Parq_made_this_experience_cheaper_and_easier._Thank_you_" data-name="“I go to campus two-days a week and don’t want to pay for a parking permit. Parq made this experience cheaper and easier. Thank you!”" class="cls-6" transform="translate(4849.928 5941.078)"><tspan x="0" y="8">“I go to campus two-</tspan><tspan x="0" y="21">days a week and </tspan><tspan x="0" y="34">don’t want to pay for </tspan><tspan x="0" y="47">a parking permit. </tspan><tspan x="0" y="60">Parq made this </tspan><tspan x="0" y="73">experience cheaper </tspan><tspan x="0" y="86">and easier. Thank </tspan><tspan x="0" y="99">you!”</tspan></text>
+    <text id="_I_go_to_campus_two-days_a_week_and_don_t_want_to_pay_for_a_parking_permit._ParkPlace_made_this_experience_cheaper_and_easier._Thank_you_" data-name="“I go to campus two-days a week and don’t want to pay for a parking permit. ParkPlace made this experience cheaper and easier. Thank you!”" transform="translate(4849.928 5941.078)" fill="#9a9a9a" font-size="11" font-family="Helvetica"><tspan x="0" y="8">“I go to campus two-</tspan><tspan x="0" y="21">days a week and </tspan><tspan x="0" y="34">don’t want to pay for </tspan><tspan x="0" y="47">a parking permit. </tspan><tspan x="0" y="60">ParkPlace made this </tspan><tspan x="0" y="73">experience cheaper </tspan><tspan x="0" y="86">and easier. Thank </tspan><tspan x="0" y="99">you!”</tspan></text>
   </g>
 </svg>
