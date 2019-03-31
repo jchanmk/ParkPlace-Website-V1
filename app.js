@@ -25,7 +25,11 @@ app.get("/signup", function(req, res){
 
 app.get("/becomehost", function(req, res){
     res.render("becomeHostPage")
-})
+});
+
+app.get("/careers", function(req, res){
+    res.render("careers");
+});
 
 app.listen(process.env.PORT || 3000, function(){
     console.log("Parq server has started");
