@@ -1,15 +1,6 @@
-/* img {
-    padding-top: 60px;
-    padding-left: 5.2%;
-} */
 body{
   font-family: Open Sans;
 }
-/* .parent{ */
-  /* margin-bottom: -31px; */
-    /* margin-bottom: -91px; */
-/* } */
-
 
 .desktopView{
   display: none;
@@ -32,7 +23,6 @@ body{
 
   body{
     background-image: url(/Assets/Backgrounds/desktopBackground.svg), url(/Assets/Backgrounds/desktopBackdrop@2x.png);
-    /* background-image: url(/Assets/Backgrounds/Parq_NewWebsite_AnimationLayers.mp4), url(/Assets/Backgrounds/desktopBackdrop@2x.png); */
     background-position: top -5% left 171%, top 100% right -13%;
     background-repeat: no-repeat, no-repeat;
     background-size: 91.9%, 86.3%;
@@ -52,7 +42,6 @@ body{
   position: relative;
   width: 77%;
   border: none;
-  /* border-radius: 30px; */
 }
 #searchbarRectangle{
   opacity: 0;
@@ -92,14 +81,8 @@ body{
 input,
 input::-webkit-input-placeholder {
     font-size: 14px;
-    /* color: white;
-    opacity: 0.6; */
     padding-left: 1.5%;
 }
-/* .desktopFormInput input::-webkit-input-placeholder {
-    color: white;
-    opacity: 0.6;
-} */
 input,
 input::-moz-placeholder{
   font-size: 14px;
@@ -134,7 +117,6 @@ input:-ms-input-placeholder{
 #noQuestion {
   width: 47%;
   margin-left: 40%;
-  /* margin-top: 55%; */
   margin-top: 35%;
   box-shadow: 6px 17px 22px 0 rgba(0, 0, 0, 0.2);
 }
@@ -203,21 +185,17 @@ input:-ms-input-placeholder{
 .row.two{
   margin-top: 13%;
   margin-left: 30%;
-  /* width: 10%; */
 }
 
 .row.three{
-   /* padding-bottom: 500px;  */
   margin-top: 9%;
   margin-left: 30%;
   margin-bottom: 10%;
-  /* width: 10%; */
 }
 
 .testimonials{
   width: 92%;
 }
-
 
 .becomeHost{
   width: 92%;
@@ -235,9 +213,7 @@ input:-ms-input-placeholder{
 }
 
 .logo{
-    /* margin-left: 50%; */
     margin-top: -52%;
-    /* margin-top: 25%; */
     left: 50%;
     top: 23em;
     width: 27%;
@@ -245,19 +221,6 @@ input:-ms-input-placeholder{
     display: block;
     position: relative;
 }
-
-/* @media screen and (max-width: 800px){
-  .mobileView {
-    display: block;
-  }
-  body{
-    background-image: url(/Assets/Mobile/Background/Mobile\ Background.svg);
-    background-position: top 0 left 105.9%;
-    background-repeat: no-repeat;
-    background-size: 82.3%;
-  }
-} */
-
 
 .bkgrnd2{
     display: block;
@@ -276,11 +239,6 @@ input:-ms-input-placeholder{
   }
   
   #sidebar {
-    /* min-width: 250px; */
-    /* position: absolute; */
-    /* width: 19%; */
-    /* margin-top: -63%; */
-    /* margin-top: -131%; */
     background: #2F4968;
     color: #fff;
     transition: all 0.3s;
@@ -293,10 +251,6 @@ input:-ms-input-placeholder{
   #sidebar a:focus {
     color: inherit;
   }
-  
-  /* #sidebar.active {
-    margin-left: -250px;
-  } */
   
   #sidebar .sidebar-header {
     padding: 25px;
@@ -319,7 +273,6 @@ input:-ms-input-placeholder{
   }
 
 #sidebar .sidebar-header #loginButton{
-    /* position: relative; */
     margin-left: 27.2%;
     font-size: .8em;
     padding: 2%;
@@ -332,7 +285,6 @@ input:-ms-input-placeholder{
 #loginButton:focus{
   outline: none;
 }
-
 
   #sidebar ul.components {
     padding: 20px 0;
@@ -359,26 +311,6 @@ input:-ms-input-placeholder{
     background: #fff;
     text-decoration: none;
   }
-  
- 
-  
-  /* a[data-toggle="collapse"] {
-    position: relative;
-  }
-   */
-  /* a[aria-expanded="false"]::before,
-  a[aria-expanded="true"]::before {
-    content: '\e259';
-    display: block;
-    position: absolute;
-    right: 20px;
-    font-family: 'Glyphicons Halflings';
-    font-size: 0.6em;
-  }
-   */
-  /* a[aria-expanded="true"]::before {
-    content: '\e260';
-  } */
   
   ul ul a {
     font-size: 0.9em !important;
@@ -419,11 +351,8 @@ input:-ms-input-placeholder{
       width: 35%;
   }
 
-  .icons i{
+  .icons a{
       margin: 3%;
       padding-bottom: 950px;
   }
-
-  
-
-  
+ 

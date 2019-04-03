@@ -1,10 +1,22 @@
 @media screen and (min-width: 769px){
-    .desktopView {
+    .desktopViewNav {
       display: block;
     }
+    .mobileViewNav{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .mobileViewNav {
+      display: block;
+    }
+    .desktopViewNav{
+        display: none;
+    }
+  }
   
-    body{
-        background-color: #407AFF;
+  body{
+    background-color: #407AFF;
       background-image: url(/Assets/Backgrounds/becomeHost/newBookSpotBackground.svg);
       background-position: top 0% left 100%;
       background-repeat: no-repeat;
@@ -12,8 +24,6 @@
       font-family: Open Sans;
       color:#9F9F9F;
     }
-  }
-
   #contactUsCareers{
       margin-top: 0;
       margin-bottom: 30%;
@@ -43,21 +53,14 @@
     display: flex;
     position: fixed;
     align-items: stretch;
-    /* font-weight: lighter; */
     font-weight: 300;
     width:19%;
   }
   
   #sidebar {
-    /* min-width: 250px; */
-    /* position: absolute; */
-    /* width: 19%; */
-    /* margin-top: -63%; */
-    /* margin-top: -131%; */
     background: #2F4968;
     color: #fff;
     transition: all 0.3s;
-    /* font-weight: 100; */
     justify-content: center;
   }
   
@@ -66,10 +69,6 @@
   #sidebar a:focus {
     color: inherit;
   }
-  
-  /* #sidebar.active {
-    margin-left: -250px;
-  } */
   
   #sidebar .sidebar-header {
     padding: 25px;
@@ -92,7 +91,6 @@
   }
 
 #sidebar .sidebar-header #loginButton{
-    /* position: relative; */
     margin-left: 27.2%;
     font-size: .8em;
     padding: 2%;
@@ -190,6 +188,7 @@
   
   #bottom {
     position: absolute;
+    width: 100%;
     bottom: 0;
     color: #fff;
     font-size: .8em;
@@ -208,4 +207,188 @@
   }
 
 
+  /* NavBar */
+.wrapperMobile {
+    display: flex;
+    position: fixed;
+    align-items: stretch;
+    font-weight: lighter;
+    width:53%;
+    left: -450px;
+    transition: all 0.3s ease-in-out;
+  }
+.wrapperMobile.active {
+    left: 0;
+}
+
+#sidebarCollapse{
+    float: left;
+    position: fixed;
+    top: 0;
+}
+#sidebarCollapse.iPad{
+    width: 8%;
+}
+#sidebarCollapse.displayNone{
+    display: none;
+}
+
+#dismiss{
+    position: fixed;
+}
+#dismiss.iPad{
+    width: 8%;
+}
+  
+  #sidebarMobile {
+    background: #2F4968;
+    color: #fff;
+    transition: all 0.3s;
+    font-weight: 100;
+    left: -250px;
+    justify-content: center;
+  }
+  #sidebarMobile.iPad{
+      margin-top: -164.8%;
+  }
+  .overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+  
+  #sidebarMobile a,
+  #sidebarMobile a:hover,
+  #sidebarMobile a:focus {
+    color: inherit;
+  }
+  
+  #sidebarMobile.active {
+    margin-left: -250px;
+  }
+  
+  #sidebarMobile .sidebar-header {
+    padding: 10%;
+    padding-bottom: 10px;
+    background: #2F4968;
+  }
+
+  #sidebarMobile .sidebar-header h3{
+      font-weight: 100;
+      font-size: 1.4em;
+      text-align: center;
+      padding-bottom: 0;
+      padding-top: 5%;
+      margin-bottom: 0;
+  }
+
+  #sidebarMobile .sidebar-header img{
+    width: 70%;
+    position: relative;
+    left: 15%;
+  }
+
+#sidebarMobile .sidebar-header #loginButton{
+    margin-left: 18.2%;
+    font-size: 100%;
+    padding: 3%;
+    background: #3973F1;
+    border-radius: 50px;
+    width: 68%;
+    -moz-border-radius: 50px;
+}
+
+
+  #sidebarMobile ul.components {
+    padding-left: 15%;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+  }
+  
+  #sidebarMobile ul p {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #sidebarMobile ul li a {
+    padding: 10px;
+    font-weight: light;
+    font-size: 100%;
+    display: block;
+  }
+  #sidebarMobile ul li a.iPhone5 {
+    padding: 10px;
+    font-weight: light;
+    font-size: 80%;
+    display: block;
+  }
+  
+  #sidebarMobile ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+    text-decoration: none;
+  }
+
+  ul.Mobile ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+  }
+  
+  ul.Mobile.CTAs {
+    padding: 20px;
+  }
+  
+  ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  a.download {
+    background: #fff;
+    color: #7386D5;
+  }
+  
+  a.article,
+  a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+  }
+
+  #navBottomMobile{
+    font-weight: 600;
+    text-align: center;
+  }
+  #navBottomMobile p{
+    margin: 0 0 3px;
+  }
+  #navBottomMobile p.iPhone5{
+      font-size: 75%;
+      margin: 0 0 1px;
+  }
+
+  #navBottomMobile img{
+      width: 35%;
+  }
+  #navBottomMobile img.iPhone5{
+    width: 30%;
+}
+
+  .iconsMobile i{
+      margin: 3%;
+      padding-bottom: 150px;
+  }
   

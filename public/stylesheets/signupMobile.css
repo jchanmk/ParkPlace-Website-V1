@@ -57,7 +57,6 @@ input[type=text].signupForm, input[type=password].signupForm {
    margin: 8px 0;
    display: inline-block;
    border: none;
-   /* border-bottom: 0.5px solid #ccc; */
    box-sizing: border-box;
    background: none;
    font-weight: lighter;
@@ -158,12 +157,6 @@ input[type=text].signupForm, input[type=password].signupForm {
 }
   
   #sidebarMobile {
-    /* min-width: 250px; */
-    /* position: absolute; */
-    /* width: 19%; */
-    /* margin-top: -63%; */
-    /* margin-top: -161.2%;*/ /* for iphone 6 */
-    /* margin-top: -295%; */
     background: #2F4968;
     color: #fff;
     transition: all 0.3s;
@@ -204,7 +197,6 @@ input[type=text].signupForm, input[type=password].signupForm {
     padding: 10%;
     padding-bottom: 10px;
     background: #2F4968;
-    /* margin-top: -30%; */
   }
 
   #sidebarMobile .sidebar-header h3{
@@ -223,22 +215,18 @@ input[type=text].signupForm, input[type=password].signupForm {
   }
 
 #sidebarMobile .sidebar-header #loginButton{
-    /* position: relative; */
     margin-left: 18.2%;
     font-size: 100%;
     padding: 3%;
     background: #3973F1;
     border-radius: 50px;
     width: 68%;
-    /* height: 2.5em; */
     -moz-border-radius: 50px;
 }
 
 
   #sidebarMobile ul.components {
-    /* padding: 3px 0; */
     padding-left: 15%;
-    /* padding-bottom: 3px; */
     border-top: 1px solid #707070;
     border-bottom: 1px solid #707070;
   }
@@ -266,26 +254,6 @@ input[type=text].signupForm, input[type=password].signupForm {
     background: #fff;
     text-decoration: none;
   }
-  
- 
-  
-  /* a[data-toggle="collapse"] {
-    position: relative;
-  }
-   */
-  /* a[aria-expanded="false"]::before,
-  a[aria-expanded="true"]::before {
-    content: '\e259';
-    display: block;
-    position: absolute;
-    right: 20px;
-    font-family: 'Glyphicons Halflings';
-    font-size: 0.6em;
-  }
-   */
-  /* a[aria-expanded="true"]::before {
-    content: '\e260';
-  } */
   
   ul.Mobile ul a {
     font-size: 0.9em !important;
@@ -317,7 +285,6 @@ input[type=text].signupForm, input[type=password].signupForm {
   }
 
   #navBottomMobile{
-    /* padding-top: 15px; */
     font-weight: 600;
     text-align: center;
   }
@@ -335,12 +302,10 @@ input[type=text].signupForm, input[type=password].signupForm {
   #navBottomMobile img.iPhone5{
     width: 30%;
 }
-  
 
   .iconsMobile i{
       margin: 3%;
       padding-bottom: 150px;
-      /* width: 50%; */
   }
 
   

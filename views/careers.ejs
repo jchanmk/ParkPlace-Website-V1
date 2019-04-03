@@ -16,27 +16,29 @@
     <link rel="stylesheet" type="text/css" href="/public/stylesheets/careers.css">
     <link rel="stylesheet" href="/public/stylesheets/login.css">
     <link rel="stylesheet" href="/public/stylesheets/signup.css">
-    <link rel="stylesheet" href="/public/stylesheets/bottomNav.css">
     <title>ParkPlace: Careers</title>
 </head>
 
 <body>
-    <div class="careersPage">
-        <div>
+    <div class="careersPage ">
+        <div class="mobileViewNav">
+            <% include ./partials/sideNavMobile %>
+        </div>
+        <div class="desktopViewNav">
             <% include ./partials/sideNav %>
         </div>
         <div id="contactUsCareers">
             <h1 class="contactUsHeader">ParkPlace is hiring! </h1>
-            <h4 class="contactUsText">We are constantly looking for new 
+            <h4 class="contactUsText">We are constantly looking for new
                 creative, experienced, well-rounded individuals
                 <br> to join our team! If you're interested in helping ParkPlace revolutionize the
                 <br> parking industry and would like to learn more, feel free to email us!
                 <br>
-                <br> <a href="mailto:ethan.glass@parqinc.com">Click Here To Join ParkPlace!</a> 
+                <br> <a href="mailto:ethan.glass@parqinc.com">Click Here To Join ParkPlace!</a>
             </h4>
         </div>
-   
     </div>
+
     <% include ./partials/bottomNav.ejs %>
 
     <% include ./partials/loginForm.ejs %>

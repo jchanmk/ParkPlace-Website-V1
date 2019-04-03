@@ -6,7 +6,6 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     font-weight: lighter;
-    /* border-bottom: 0.5px solid #ccc; */
     box-sizing: border-box;
     background: none;
     color: white;
@@ -22,9 +21,6 @@ input[type=text], input[type=password] {
       border-color: white;
       opacity: 0.5;
   }
-  /* input[type=text]::placeholder, input[type=password]::placeholder{
-      color: white;
-  } */
 
 /* The slider */
 .slider {
@@ -111,7 +107,6 @@ input[type=text], input[type=password] {
     background-position: top -3em left -1em;
     background-repeat: no-repeat;
     background-size: 39em;
-    /* margin-top: -6%; */
     border: 2px solid rgba(255, 255, 255, 0.5);
   }
   .formButtons{
@@ -171,8 +166,6 @@ input[type=text], input[type=password] {
   }
   
   span.psw {
-    /* float: right; */
-    /* padding-top: 16px; */
     color: white;
     font-size: 70%;
     margin-left: 20%;
@@ -180,15 +173,12 @@ input[type=text], input[type=password] {
     top: -0.8em;
   }
   span.psw a{
-    /* float: right; */
-    /* padding-top: 16px; */
     color: white;
   }
   
   /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */
-    /* display: block; */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
@@ -222,12 +212,6 @@ input[type=text], input[type=password] {
     font-weight: bold;
   }
   
-  /* .close:hover,
-  .close:focus {
-    color: red;
-    cursor: pointer;
-  }
-   */
   /* Add Zoom Animation */
   .animate {
     -webkit-animation: animatezoom 0.6s;

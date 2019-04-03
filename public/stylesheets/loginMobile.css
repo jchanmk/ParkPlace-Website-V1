@@ -32,9 +32,6 @@ input[type=text], input[type=password] {
   #welcomeLogin{
       padding-top: 12%;
   }
-  /* input[type=text]::placeholder, input[type=password]::placeholder{
-      color: white;
-  } */
   body{
     background-image: url(/Assets/LoginForm/signupbg_1242x2208@3x.svg);
     background-position: top 3em left -1em;
@@ -134,14 +131,11 @@ input[type=text], input[type=password] {
     background-repeat: no-repeat;
     background-size: 39em;
     color: white;
-    /* margin-top: -6%; */
-    /* border: 12px solid #707070; */
   }
   .loginBack.iPad{
       background-size: 59em;
   }
   .formButtons{
-      /* padding: 5px; */
   }
 
   .formButtons.iPhone5{
@@ -206,8 +200,6 @@ input[type=text], input[type=password] {
   }
   
   span.psw {
-    /* float: right; */
-    /* padding-top: 16px; */
     color: white;
     font-size: 70%;
     margin-left: 50%;
@@ -222,13 +214,10 @@ input[type=text], input[type=password] {
   }
 
   span.psw a{
-    /* float: right; */
-    /* padding-top: 16px; */
     color: white;
   }
   
   /* The Modal (background) */
-
 
   /* Modal Content/Box */
   .modal-content {
@@ -241,7 +230,6 @@ input[type=text], input[type=password] {
     top: -1em;
   }
   
-
   @media screen and (max-width: 768px){
     .mobileView {
       display: block;
@@ -254,13 +242,11 @@ input[type=text], input[type=password] {
 
 /* NavBar */
 .wrapperMobile {
-    /* display: flex; */
     display: flex;
     position: fixed;
     align-items: stretch;
     font-weight: lighter;
     width:53%;
-    /* top: 84%; */
     top: 0;
     left: -450px;
     transition: all 0.3s ease-in-out;
@@ -286,19 +272,12 @@ input[type=text], input[type=password] {
 
 #dismiss{
     position: fixed;
-    /* top: 0; */
 }
 #dismiss.iPad{
     width: 8%;
 }
   
   #sidebarMobile {
-    /* min-width: 250px; */
-    /* position: absolute; */
-    /* width: 19%; */
-    /* margin-top: -63%; */
-    /* margin-top: -161.2%;*/ /* for iphone 6 */
-    /* margin-top: -295%; */
     background: #2F4968;
     color: #fff;
     transition: all 0.3s;
@@ -339,7 +318,6 @@ input[type=text], input[type=password] {
     padding: 10%;
     padding-bottom: 10px;
     background: #2F4968;
-    /* margin-top: -30%; */
   }
 
   #sidebarMobile .sidebar-header h3{
@@ -358,14 +336,12 @@ input[type=text], input[type=password] {
   }
 
 #sidebarMobile .sidebar-header #loginButton{
-    /* position: relative; */
     margin-left: 18.2%;
     font-size: 100%;
     padding: 3%;
     background: #3973F1;
     border-radius: 50px;
     width: 68%;
-    /* height: 2.5em; */
     -moz-border-radius: 50px;
 }
 
@@ -375,9 +351,7 @@ input[type=text], input[type=password] {
 
 
   #sidebarMobile ul.components {
-    /* padding: 3px 0; */
     padding-left: 15%;
-    /* padding-bottom: 3px; */
     border-top: 1px solid #707070;
     border-bottom: 1px solid #707070;
   }
@@ -405,26 +379,6 @@ input[type=text], input[type=password] {
     background: #fff;
     text-decoration: none;
   }
-  
- 
-  
-  /* a[data-toggle="collapse"] {
-    position: relative;
-  }
-   */
-  /* a[aria-expanded="false"]::before,
-  a[aria-expanded="true"]::before {
-    content: '\e259';
-    display: block;
-    position: absolute;
-    right: 20px;
-    font-family: 'Glyphicons Halflings';
-    font-size: 0.6em;
-  }
-   */
-  /* a[aria-expanded="true"]::before {
-    content: '\e260';
-  } */
   
   ul.Mobile ul a {
     font-size: 0.9em !important;
@@ -456,7 +410,6 @@ input[type=text], input[type=password] {
   }
 
   #navBottomMobile{
-    /* padding-top: 15px; */
     font-weight: 600;
     text-align: center;
   }
@@ -475,7 +428,6 @@ input[type=text], input[type=password] {
     width: 30%;
 }
   
-
   .iconsMobile i{
       margin: 3%;
       padding-bottom: 150px;

@@ -19,7 +19,6 @@
 </head>
 
 <body>
-    <!-- <div id="id01" class="modal"> -->
     <form class="modal-content animate" action="/action_page.php">
         <div class="loginBack">
             <div class="imgcontainer">
@@ -29,10 +28,8 @@
 
 
             <div class="container loginForm">
-                <!-- <label for="uname"><b>Username</b></label> -->
                 <input type="text" placeholder="Email" name="uname" required class="noselect">
                 <hr class="inputLine">
-                <!-- <label for="psw"><b>Password</b></label> -->
                 <input type="password" placeholder="Enter Password" name="psw" required>
                 <hr class="inputLine">
                 <div>
@@ -45,27 +42,20 @@
 
                 <div class="formButtons">
                     <button id="loginFormClick" type="submit">Login</button>
-                    <!-- <a role="button" id="loginFormClick" href="#">Login</a> -->
                     <div>
                         <img id="orLogin" src="/Assets/LoginForm/ORLogin.svg" alt="">
                     </div>
                     <button id="loginFormClick" class="facebook" type="submit">Login with Facebook</button>
-                    <!-- <a role="button" id="loginFormClick" href="#">Login with Facebook</a> -->
                     <div>
-                        <!-- <button class="btn" id="signupFormClick">Sign Up</button> -->
                         <a role="button" id="signupFormClick" href="/signup">Sign Up</a>
                     </div>
                 </div>
             </div>
-            <!-- <div class="container" style="background-color:#f1f1f1"> -->
-            <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> -->
-            <!-- </div> -->
         </div>
     </form>
     <span id="hamburgerMenu">
-            <img id="sidebarCollapse" src="/Assets/Mobile/NavBar/hamburgerMenu.svg" alt="">
-        </span>
-    <!-- </div> -->
+        <img id="sidebarCollapse" src="/Assets/Mobile/NavBar/hamburgerMenu.svg" alt="">
+    </span>
     <div>
         <% include ./partials/sideNavMobile %>
     </div>
