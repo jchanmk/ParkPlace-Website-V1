@@ -305,6 +305,13 @@ input:-ms-input-placeholder{
     font-size: .9em;
     display: block;
   }
+
+  #sidebar ul li span {
+    padding: 10px;
+    font-weight: light;
+    font-size: .9em;
+    display: block;
+  }
   
   #sidebar ul li a:hover {
     color: #7386D5;
