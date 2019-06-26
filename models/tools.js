@@ -3,9 +3,9 @@ $(document).ready(function () {
         top: '6em',
         opacity: '1',
     }, 800, "swing");
-    $("#searchbarRectangle").delay(8000).animate({ // parq logo animation
-        opacity: '1',
-    }, 800, "swing");
+    // $("#searchbarRectangle").delay(8000).animate({ // parq logo animation
+    //     opacity: '1',
+    // }, 800, "swing");
     if(screen.width === 768){   // ipad resizing
         $('#noQuestionMobile, #sidebarCollapse, .stepsMobile, #dismiss, .popupsMobile, #finditPopMobile').addClass('iPad');
         $('#bookitMobile, #bookitPopMobile, #parqitMobile, #becomeHostMobile, #moneyButtonMobile, #quotesHeader').addClass('iPad');

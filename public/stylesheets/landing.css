@@ -44,14 +44,30 @@ body{
   border: none;
 }
 #searchbarRectangle{
-  opacity: 0;
+  margin-top: 8.5%;
+  margin-left: 19%;
+  text-align: center;
+  /* opacity: 1;
   margin-top: 15%;
   margin-left: 43.5%;
   width: 39%;
   border-radius: 30px;
   background-color: #183557;
-  height: 2.7em;
+  height: 2.7em; */
   position: relative;
+}
+#searchbarRectangle span{
+  font-size: 2em;
+  font-weight: 300;
+  color: white;
+}
+#homescreenTag{
+  font-weight: 800;
+  font-size: 3em;
+  background: white;
+  color: #407AFF;
+  text-shadow: 10px 13px 18px rgba(64,122,255,0.55);
+  padding: 1%;
 }
 #magnifyGlass{
   opacity: 0;
