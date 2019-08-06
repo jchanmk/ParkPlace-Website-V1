@@ -56,19 +56,40 @@ body{
   height: 2.7em; */
   position: relative;
 }
-#searchbarRectangle span{
-  font-size: 2em;
-  font-weight: 300;
-  color: white;
-}
+
 #homescreenTag{
+  margin-top: 17%;
+  color: white;
   font-weight: 800;
-  font-size: 3em;
-  background: white;
-  color: #407AFF;
-  text-shadow: 10px 13px 18px rgba(64,122,255,0.55);
-  padding: 1%;
+  font-size: 32px;
+  /* text-shadow: 10px 13px 18px rgba(0, 0, 0, 0.55); */
 }
+.homescreenButtons{
+  background: white;
+  font-size: 30px;
+  padding: 0.7%;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 4%;
+  padding-right: 4%;
+  color: #407AFF;
+  border-radius: 10px;
+}
+.homescreenButtons:hover{
+  text-decoration: none;
+}
+.homescreenCaptions{
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 82px;
+  margin-right: 82px;
+  margin-top: 150px;
+}
+#captionDiv{
+  margin-top: 20px;
+}
+
 #magnifyGlass{
   opacity: 0;
   color:white;
@@ -249,9 +270,12 @@ input:-ms-input-placeholder{
 .wrapper {
     display: flex;
     position: fixed;
+    /* position: absolute; */
+    top: 0;
     align-items: stretch;
     font-weight: lighter;
     width:19%;
+
   }
   
   #sidebar {

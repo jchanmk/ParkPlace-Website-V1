@@ -1,0 +1,112 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(/Assets/Backgrounds/desktopBackdrop@2x.png);
+    background-position: top 10% left -250%;
+    background-repeat: no-repeat;
+    background-size: 105%;
+}
+
+#howItWorks{
+    color: white;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 5%;
+}
+#howItWorks h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#toggleDiv{
+    margin-top: 5%;
+}
+
+.howItWorksToggle{
+  background: white;
+  font-size: 30px;
+  padding: 0.7%;
+  margin-left: 33px;
+  margin-right: 33px;
+  padding-left: 4%;
+  padding-right: 4%;
+  color: #41A2F8;
+  border-radius: 5px;
+  /* add in box shadow */
+}
+.howItWorksToggle:hover{
+    text-decoration: none;
+  }
+
+#howItWorksBlurb{
+    margin-top: 5%;
+    font-weight: 300;
+    font-size: 23px;
+}
+#guestText{
+    margin-top: 7%;
+}
+
+#guestText h1{
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    color: white;
+    text-decoration: underline;
+}
+
+#guestStep1{
+    margin-left: 30%;
+    width: 60%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid white;
+}
+
+#guestStep1 img{
+    width: 100px;
+    margin-top: -10%;
+}
+
+#guestStep1Text{
+    display: inline-block;
+    color: white;
+    margin-left: 10%;
+}
+
+#guestStep1Header{
+    font-size: 34px;
+}
+
+#guestStep1Sub{
+    font-weight: 300;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+#guestStep2{
+    margin-left: 30%;
+    width: 60%;
+    border-bottom: 1px solid white;
+}
+#guestStep2Header{
+    font-size: 34px;
+}
+#guestStep2Sub{
+    font-weight: 300;
+    margin-top: 5%;
+    font-size: 20px;
+}
+#guestStep2Text{
+    display: inline-block;
+    margin-top: 5%;
+    color: white;
+}
+
+#guestStep2Text img{
+    width: 200px;
+    /* display: inline-block; */
+    /* float:right; */
+    margin-top: -20%;
+    margin-left: 95%;
+}

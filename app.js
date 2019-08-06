@@ -31,6 +31,10 @@ app.get("/careers", function(req, res){
     res.render("careers");
 });
 
+app.get("/howitworks", function(req, res){
+    res.render("howItWorks");
+});
+
 app.listen(process.env.PORT || 3000, function(){
     console.log("Parq server has started");
 }); 
