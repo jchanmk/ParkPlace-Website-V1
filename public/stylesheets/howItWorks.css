@@ -48,6 +48,22 @@ body{
     margin-top: 7%;
 }
 
+
+.guestSteps{
+    margin-left: 30%;
+    width: 60%;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.guestStepsHeaders{
+    font-size: 34px;
+}
+.guestStepsSubs{
+    font-weight: 300;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
 #guestText h1{
     text-align: center;
     margin-left: 15%;
@@ -57,10 +73,7 @@ body{
 }
 
 #guestStep1{
-    margin-left: 30%;
-    width: 60%;
     padding-bottom: 5%;
-    border-bottom: 1px solid white;
 }
 
 #guestStep1 img{
@@ -74,29 +87,6 @@ body{
     margin-left: 10%;
 }
 
-#guestStep1Header{
-    font-size: 34px;
-}
-
-#guestStep1Sub{
-    font-weight: 300;
-    margin-top: 5%;
-    font-size: 20px;
-}
-
-#guestStep2{
-    margin-left: 30%;
-    width: 60%;
-    border-bottom: 1px solid white;
-}
-#guestStep2Header{
-    font-size: 34px;
-}
-#guestStep2Sub{
-    font-weight: 300;
-    margin-top: 5%;
-    font-size: 20px;
-}
 #guestStep2Text{
     display: inline-block;
     margin-top: 5%;
@@ -105,8 +95,10 @@ body{
 
 #guestStep2Text img{
     width: 200px;
-    /* display: inline-block; */
-    /* float:right; */
     margin-top: -20%;
     margin-left: 95%;
+}
+
+#guestStep3 img{
+    width: 250px;
 }
