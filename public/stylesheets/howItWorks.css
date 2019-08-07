@@ -10,7 +10,7 @@ body{
 
 #howItWorks{
     color: white;
-    margin-left: 15%;
+    margin-left: 18%;
     text-align: center;
     margin-top: 5%;
 }
@@ -27,50 +27,71 @@ body{
   background: white;
   font-size: 30px;
   padding: 0.7%;
+  border: none;
   margin-left: 33px;
   margin-right: 33px;
   padding-left: 4%;
   padding-right: 4%;
   color: #41A2F8;
   border-radius: 5px;
+  -webkit-box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.42);
+  -moz-box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.42);
+  box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.42);
+  outline: none;
   /* add in box shadow */
 }
 .howItWorksToggle:hover{
     text-decoration: none;
   }
 
+ #hostToggle{
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  #guestToggle{
+    background: rgba(255, 255, 255);
+  }
+
+  #hostToggle.howItWorksToggleActive{
+      background: rgba(255, 255, 255, 1);
+  }
+  #guestToggle.howItWorksToggleInactive{
+      background: rgba(255, 255, 255, 0.5);
+  }
+
+
 #howItWorksBlurb{
     margin-top: 5%;
     font-weight: 300;
     font-size: 23px;
 }
-#guestText{
+.howItWorksTexts{
     margin-top: 7%;
 }
 
-
-.guestSteps{
-    margin-left: 30%;
-    width: 60%;
-    border-bottom: 1px solid white;
-    color: white;
-}
-.guestStepsHeaders{
-    font-size: 34px;
-}
-.guestStepsSubs{
-    font-weight: 300;
-    margin-top: 5%;
-    font-size: 20px;
-}
-
-#guestText h1{
+.howItWorksTexts h1{
     text-align: center;
     margin-left: 15%;
     margin-bottom: 2%;
     color: white;
     text-decoration: underline;
 }
+
+.howItWorksSteps{
+    margin-left: 30%;
+    width: 60%;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.howItWorksHeaders{
+    font-size: 34px;
+}
+.howItWorksSubs{
+    font-weight: 300;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
 
 #guestStep1{
     padding-bottom: 5%;
@@ -94,11 +115,95 @@ body{
 }
 
 #guestStep2Text img{
-    width: 200px;
-    margin-top: -20%;
+    width: 230px;
+    margin-top: -30%;
     margin-left: 95%;
 }
 
 #guestStep3 img{
-    width: 250px;
+    width: 230px;
+    margin-top: -15%;
+}
+
+#guestStep3Text{
+    display: inline-block;
+    color: white;
+    margin-top: 5%;
+}
+
+#guestStep3{
+    border: none;
+    margin-bottom: 4%;
+}
+
+.howItWorksBottomText{
+    margin-left: 30%;
+    width: 60%;
+    color: white !important;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+.howItWorksBottomText a{
+    color: white;
+}
+
+#hostText{
+    display: none;
+}
+
+
+#hostStep1{
+    padding-bottom: 5%;
+}
+#hostStep1Text{
+    display: inline-block;
+    color: white;
+}
+#hostStep1 img{
+    width: 100px;
+    float: right;
+}
+
+#hostStep2{
+    padding-bottom: 5%;
+}
+#hostStep2Text{
+    display: inline-block;
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#hostStep2 img{
+    width: 100px;
+    margin-top: -10%;
+}
+
+#hostStep3{
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+#hostStep3Text{
+    display: inline-block;
+    color: white;
+}
+#hostStep3 img{
+    width: 200px;
+    float: right;
+}
+
+#hostStep4{
+    padding-bottom: 5%;
+    border: none;
+}
+#hostStep4Text{
+    display: inline-block;
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#hostStep4 img{
+    width: 190px;
+    margin-top: -30%;
 }

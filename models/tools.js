@@ -147,6 +147,28 @@ function formContinue(){
     }
 };
 
+/////// How it Works /////////
+// function howItWorksToggle(){
+//     console.log(this);
+//     $(this).addClass("howItWorksToggleActive");   
+// }
+
+$("#hostToggle").click(function(){
+    $(this).addClass("howItWorksToggleActive");   
+    $("#guestToggle").addClass("howItWorksToggleInactive");   
+    $("#guestText").css("display", "none");   
+    $("#hostText").css("display", "block");   
+})
+$("#guestToggle").click(function(){
+    $(this).removeClass("howItWorksToggleInactive");   
+    $("#hostToggle").removeClass("howItWorksToggleActive");   
+    $("#guestText").css("display", "block");   
+    $("#hostText").css("display", "none");   
+
+})
+
+
+
 /////// Mobile  ////////////
 $('#dismiss, .overlay').on('click', function () {
     // hide sidebar
