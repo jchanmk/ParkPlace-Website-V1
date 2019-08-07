@@ -1,0 +1,6 @@
+body{
+    background-image: url(/Assets/Backgrounds/desktopBackdrop@2x.png);
+    background-position: top 10% left -250%;
+    background-repeat: no-repeat;
+    background-size: 105%;
+}
