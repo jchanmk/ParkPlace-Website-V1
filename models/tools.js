@@ -153,17 +153,17 @@ function formContinue(){
 //     $(this).addClass("howItWorksToggleActive");   
 // }
 
-$("#hostToggle").click(function(){
+$(".hostToggle").click(function(){
     $(this).addClass("howItWorksToggleActive");   
-    $("#guestToggle").addClass("howItWorksToggleInactive");   
-    $("#guestText").css("display", "none");   
-    $("#hostText").css("display", "block");   
+    $(".guestToggle").addClass("howItWorksToggleInactive");   
+    $(".guestText").css("display", "none");   
+    $(".hostText").css("display", "block");   
 })
-$("#guestToggle").click(function(){
+$(".guestToggle").click(function(){
     $(this).removeClass("howItWorksToggleInactive");   
-    $("#hostToggle").removeClass("howItWorksToggleActive");   
-    $("#guestText").css("display", "block");   
-    $("#hostText").css("display", "none");   
+    $(".hostToggle").removeClass("howItWorksToggleActive");   
+    $(".guestText").css("display", "block");   
+    $(".hostText").css("display", "none");   
 
 })
 

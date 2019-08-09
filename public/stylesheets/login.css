@@ -139,9 +139,9 @@ input[type=text], input[type=password] {
   }
 
   
-  button:hover {
+  /* button:hover {
     opacity: 0.8;
-  }
+  } */
   
   /* Extra styles for the cancel button */
   .cancelbtn {

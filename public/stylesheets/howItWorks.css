@@ -1,6 +1,7 @@
 html{
     height: 100%;
 }
+@media screen and (min-width: 769px){
 
 #howItWorks{
     color: white;
@@ -38,18 +39,18 @@ html{
     text-decoration: none;
   }
 
- #hostToggle{
+ .hostToggle{
     background: rgba(255, 255, 255, 0.5);
   }
 
-  #guestToggle{
+  .guestToggle{
     background: rgba(255, 255, 255);
   }
 
-  #hostToggle.howItWorksToggleActive{
+  .hostToggle.howItWorksToggleActive{
       background: rgba(255, 255, 255, 1);
   }
-  #guestToggle.howItWorksToggleInactive{
+  .guestToggle.howItWorksToggleInactive{
       background: rgba(255, 255, 255, 0.5);
   }
 
@@ -143,7 +144,7 @@ html{
     color: white;
 }
 
-#hostText{
+.hostText{
     display: none;
 }
 
@@ -200,4 +201,5 @@ html{
 #hostStep4 img{
     width: 190px;
     margin-top: -30%;
+}
 }

@@ -279,6 +279,7 @@
     width:53%;
     left: -450px;
     transition: all 0.3s ease-in-out;
+    top: 0;
   }
 .wrapperMobile.active {
     left: 0;

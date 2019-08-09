@@ -20,7 +20,7 @@
                     park on an hourly, daily, and monthly basis.
                 </p>
             </div>
-            <div class="howItWorksTexts" id="guestText">
+            <div class="howItWorksTexts guestText">
                 <h1>Guest</h1>
                 <div id="guestStep1" class="howItWorksSteps">
                     <img src="/Assets/HowItWorks/AppIcon@3x.svg" alt="">
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="howItWorksTexts" id="hostText">
+            <div class="howItWorksTexts hostText">
                 <h1>Host</h1>
                 <div id="hostStep1" class="howItWorksSteps">
                     <div id="hostStep1Text"> <span class="howItWorksHeaders">1. Download the app</span>
@@ -66,22 +66,22 @@
                 <div id="hostStep3" class="howItWorksSteps">
                     <div id="hostStep3Text"> <span class="howItWorksHeaders">3. Connect with Stripe</span>
                         <div class="howItWorksSubs">We are committed to security and privacy. This is why we <br>
-                        are working with the #1 mobile payment platform.</div>
+                            are working with the #1 mobile payment platform.</div>
                     </div>
                     <img src="/Assets/HowItWorks/stripe-icon-23@2x.png" alt="">
                 </div>
                 <div id="hostStep4" class="howItWorksSteps">
-                        <img src="/Assets/HowItWorks/Device Bezels - iPhoneXS - Space Gray@2x.png" alt="">
-                        <div id="hostStep4Text"> <span class="howItWorksHeaders">4. Make your space live</span>
-                            <div class="howItWorksSubs">
-                                Set your times available, days available, and the price! You <br>
-                              have full control over your parking space. <br><br>
-                                Indicate your parking space as flat or hourly rate based <br> 
-                                 on your personal preference! We found that flat-rate <br> 
-                                 spaces are better suited for event parking!
-                            </div>
+                    <img src="/Assets/HowItWorks/Device Bezels - iPhoneXS - Space Gray@2x.png" alt="">
+                    <div id="hostStep4Text"> <span class="howItWorksHeaders">4. Make your space live</span>
+                        <div class="howItWorksSubs">
+                            Set your times available, days available, and the price! You <br>
+                            have full control over your parking space. <br><br>
+                            Indicate your parking space as flat or hourly rate based <br>
+                            on your personal preference! We found that flat-rate <br>
+                            spaces are better suited for event parking!
                         </div>
                     </div>
+                </div>
             </div>
 
 
@@ -98,14 +98,112 @@
         <div>
             <% include ./partials/sideNavMobile %>
         </div>
-        <span id="hamburgerMenu">
-            <img id="sidebarCollapse" src="/Assets/Mobile/NavBar/hamburgerMenu.svg" alt="">
-        </span>
-        <div class="mobileParent">
+        <div class="parent">
+            <div id="howItWorks">
+                <h1>How it Works</h1>
+                <div id="toggleDiv">
+                    <button class="howItWorksToggle guestToggle" role="button">Booking a Spot</button>
+                    <button class="howItWorksToggle hostToggle" role="button">Becoming a Host</button>
+                </div>
 
+                <p id="howItWorksBlurb">
+                    ParkPlace is a peer-to-peer <br>
+                    marketplace where property <br>
+                    owners can rent out their <br>
+                    real-estate to drivers looking <br>
+                    to park on an hourly, daily, <br>
+                    and monthly basis.
+                </p>
+            </div>
+            <div class="howItWorksTexts guestText">
+                <h1>Guest</h1>
+                <div id="guestStep1" class="howItWorksSteps">
+                    <img src="/Assets/HowItWorks/AppIcon@3x.svg" alt="">
+                    <div id="guestStep1Text"> <span class="howItWorksHeaders">1. Download the app</span>
+                        <div class="howItWorksSubs">Get the free ParkPlace app on <br> all IOS devices!</div>
+                    </div>
+                </div>
+                <div id="guestStep2" class="howItWorksSteps">
+                    <div id="guestStep2Text"> <span class="howItWorksHeaders">2. Search</span>
+                        <div class="howItWorksSubs">
+                            <p>
+                                Set your location and preference for flat or hourly rate parking. Choose your favorite
+                                spot to view the details.
+                            </p>
+                        </div>
+                        <img src="/Assets/HowItWorks/guestStep2.svg" alt="">
+                    </div>
+                </div>
+                <div id="guestStep3" class="howItWorksSteps">
+                    <div id="guestStep3Text"> <span class="howItWorksHeaders">3. Book it!</span>
+                        <div class="howItWorksSubs">
+                            <p>
+                                Book your spot and receive address details!
+                                Chat with your host, make changes to your
+                                booking, and much more all within the app!
+                            </p>
+                        </div>
+                    </div>
+                    <img src="/Assets/HowItWorks/guestStep3.svg" alt="">
+                </div>
+            </div>
+            <div class="howItWorksTexts hostText">
+                <h1>Host</h1>
+                <div id="hostStep1" class="howItWorksSteps">
+                    <div id="hostStep1Text"> <span class="howItWorksHeaders">1. Download the app</span>
+                        <div class="howItWorksSubs">Get the free ParkPlace app on <br> all IOS devices!</div>
+                    </div>
+                    <img src="/Assets/HowItWorks/AppIcon@3x.svg" alt="">
+                </div>
+                <div id="hostStep2" class="howItWorksSteps">
+                    <img src="/Assets/HowItWorks/ic_myspace_slt.svg" alt="">
+                    <div id="hostStep2Text"> <span class="howItWorksHeaders">2. Navigate to Host Icon</span>
+                        <div class="howItWorksSubs">Simply click the host icon and <br> press the (+) in the top right
+                            <br> corner.</div>
+                    </div>
+                </div>
+                <div id="hostStep3" class="howItWorksSteps">
+                    <div id="hostStep3Text"> <span class="howItWorksHeaders">3. Connect with Stripe</span>
+                        <div class="howItWorksSubs">
+                            <p>
+                                We are committed to security and privacy. This is why we
+                                are working with the #1 mobile payment platform.
+                            </p>
+                        </div>
+                    </div>
+                    <img src="/Assets/HowItWorks/stripe-icon-23@2x.png" alt="">
+                </div>
+                <div id="hostStep4" class="howItWorksSteps">
+                    <div id="hostStep4Text"> <span class="howItWorksHeaders">4. Make your space live</span>
+                        <div class="howItWorksSubs">
+                            <p>
+                                Set your times available, days available, and the price! You
+                                have full control over your parking space. <br> <br>
+                                Indicate your parking space as flat or hourly rate based
+                                on your personal preference! We found that flat-rate
+                                spaces are better suited for event parking!
+                            </p>
+                        </div>
+                        <img src="/Assets/HowItWorks/Device Bezels - iPhoneXS - Space Gray@2x.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="howItWorksBottomText">
+                <p>Have any questions? Contact us at</p>
+                <a href="mailto:info@parqinc.com">info@parqinc.com</a>
+            </div>
+            <span id="hamburgerMenu">
+                <img id="sidebarCollapse" src="/Assets/Mobile/NavBar/hamburgerMenu.svg" alt="">
+            </span>
+            <div class="mobileParent">
+
+            </div>
         </div>
-    </div>
 
 
 
-    <% include ./partials/footer %>
+        <% include ./partials/footer %>

@@ -4,3 +4,223 @@ body{
     background-repeat: no-repeat;
     background-size: 105%;
 }
+
+@media screen and (max-width: 768px){
+    body{
+      background-image:  url(/Assets/Backgrounds/howItWorksMobileBackground@2x.png);
+      background-position:  top 0 left 0;
+      background-repeat: repeat;
+      background-size: 100%;
+    }
+    #howItWorks{
+        color: white;
+        text-align: center;
+        margin-top: 15%;
+    }
+    #howItWorks h1{
+        font-weight: 500;
+        font-size: 30px;
+    }
+    
+    #toggleDiv{
+        margin-top: 8%;
+    }
+    
+    .howItWorksToggle{
+      background: white;
+      font-size: 18px;
+      padding: 0.7%;
+      border: none;
+      margin-left: 4px;
+      margin-right: 4px;
+      padding-left: 4%;
+      padding-right: 4%;
+      color: #41A2F8;
+      border-radius: 5px;
+      -webkit-box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.42);
+      -moz-box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.42);
+      box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.42);
+      outline: none;
+      /* add in box shadow */
+    }
+    .howItWorksToggle:hover{
+        text-decoration: none;
+      }
+    
+     .hostToggle{
+        background: rgba(255, 255, 255, 0.5);
+      }
+    
+      .guestToggle{
+        background: rgba(255, 255, 255);
+      }
+    
+      .hostToggle.howItWorksToggleActive{
+          background: rgba(255, 255, 255, 1);
+      }
+      .guestToggle.howItWorksToggleInactive{
+          background: rgba(255, 255, 255, 0.5);
+      }
+    
+    
+    #howItWorksBlurb{
+        margin-top: 8%;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .howItWorksTexts{
+        margin-top: 7%;
+    }
+    
+    .howItWorksTexts h1{
+        text-align: center;
+        margin-bottom: 2%;
+        color: white;
+        font-size: 23px;
+        text-decoration: underline;
+    }
+    
+    .howItWorksSteps{
+        width: 80%;
+        border-bottom: 1px solid white;
+        color: white;
+        margin-left: 10%;
+    }
+    .howItWorksHeaders{
+        font-size: 20px;
+    }
+    .howItWorksSubs{
+        font-weight: 300;
+        margin-top: 5%;
+        font-size: 16px;
+    }
+    
+    
+    #guestStep1{
+        padding-bottom: 5%;
+    }
+    
+    #guestStep1 img{
+        width: 60px;
+        margin-top: -27%;
+    }
+    
+    #guestStep1Text{
+        display: inline-block;
+        color: white;
+    }
+    
+    #guestStep2Text{
+        display: inline-block;
+        margin-top: 5%;
+        color: white;
+    }
+    
+    #guestStep2Text img{
+        width: 230px;
+        margin-top: -5%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    #guestStep3 img{
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+    
+    #guestStep3Text{
+        display: inline-block;
+        color: white;
+        margin-top: 5%;
+    }
+    
+    #guestStep3{
+        border: none;
+        margin-bottom: 4%;
+    }
+    
+    .howItWorksBottomText{
+        color: white !important;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 15%;
+    }
+    .howItWorksBottomText a{
+        color: white;
+    }
+    
+    .hostText{
+        display: none;
+    }
+    
+    
+    #hostStep1{
+        padding-bottom: 5%;
+    }
+    #hostStep1Text{
+        display: inline-block;
+        color: white;
+    }
+    #hostStep1 img{
+        width: 60px;
+        float: right;
+    }
+    
+    #hostStep2{
+        padding-bottom: 5%;
+    }
+    #hostStep2Text{
+        display: inline-block;
+        color: white;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    #hostStep2 img{
+        width: 60px;
+        margin-top: -30%;
+    }
+    
+    #hostStep3{
+        padding-bottom: 5%;
+        margin-top: 5%;
+    }
+    #hostStep3Text{
+        display: inline-block;
+        color: white;
+    }
+    #hostStep3 img{
+        width: 120px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #hostStep4{
+        padding-bottom: 5%;
+        border: none;
+    }
+    #hostStep4Text{
+        display: inline-block;
+        color: white;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    #hostStep4 img{
+        width: 190px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+
+  }
