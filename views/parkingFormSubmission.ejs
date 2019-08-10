@@ -1,0 +1,45 @@
+<% include ./partials/parkingFormHeader %>
+
+<body>
+    <div class="desktopView">
+        <div>
+            <% include ./partials/sideNav %>
+        </div>
+        <div class="parent">
+
+            <img class="parkingFormSubmissionLogo" src="/Assets/Backgrounds/ParkPlaceWhite@3x.png" alt="">
+            <div class="submittedText">
+                <p>
+                    Thank you for your submission!
+                    We'll send you a list of available
+                    private parking spots soon.
+                    <br><br>
+                    -The ParkPlace Team
+                </p>
+            </div>
+
+        </div>
+        <% include ./partials/bottomNav.ejs %>
+
+    </div>
+
+    <div class="mobileView">
+        <div>
+            <% include ./partials/sideNavMobile %>
+        </div>
+        <div class="parent">
+
+
+
+            <span id="hamburgerMenu">
+                <img id="sidebarCollapse" src="/Assets/Mobile/NavBar/hamburgerMenu.svg" alt="">
+            </span>
+            <div class="mobileParent">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <% include ./partials/footer %>

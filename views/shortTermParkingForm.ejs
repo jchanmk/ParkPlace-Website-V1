@@ -1,0 +1,64 @@
+<% include ./partials/parkingFormHeader %>
+
+<body>
+    <div class="desktopView">
+        <div>
+            <% include ./partials/sideNav %>
+        </div>
+        <div class="parent">
+            <div class="parkingFormText">
+                <h1>SHORT TERM PARKING</h1>
+                <p class="parkingFormBlurb">
+                    Book a parking space before you get to the event! Never miss tip-off, kick-off, or the start
+                    of the show!
+                </p>
+                <br><br>
+                <p class="parkingFormSecondBlurb">
+                    ENTER YOUR DESIRED LOCATION <br>
+                    JOIN THE WAITLIST <br>
+                    HEAR BACK SHORTLY!
+                </p>
+            </div>
+            <div class="parkingForm">
+                <img src="/Assets/Backgrounds/ParkPlaceWhite@3x.png" alt="">
+                <form method="POST" action="send">
+                    <div class="parkingFormInputs">
+                        <label>NAME</label><br>
+                        <input class="" type="text" name="shortTermName" placeholder="John Doe">
+                    </div>
+                    <div class="parkingFormInputs">
+                        <label>EMAIL</label><br>
+                        <input id="" type="email" name="shortTermEmail" id="" placeholder="Email">
+                    </div>
+                    <div class="parkingFormInputs">
+                        <label>LOCATION</label><br>
+                        <input id="" type="text" name="shortTermLocation" placeholder="ie. Santa Monica College">
+                    </div>
+                    <button class="parkingFormButton" type="submit">JOIN THE WAITLIST</button>
+                </form>
+            </div>
+        </div>
+        <% include ./partials/bottomNav.ejs %>
+
+    </div>
+
+    <div class="mobileView">
+        <div>
+            <% include ./partials/sideNavMobile %>
+        </div>
+        <div class="parent">
+
+
+
+            <span id="hamburgerMenu">
+                <img id="sidebarCollapse" src="/Assets/Mobile/NavBar/hamburgerMenu.svg" alt="">
+            </span>
+            <div class="mobileParent">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <% include ./partials/footer %>

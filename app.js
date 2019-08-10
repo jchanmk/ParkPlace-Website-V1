@@ -35,6 +35,16 @@ app.get("/howitworks", function(req, res){
     res.render("howItWorks");
 });
 
+app.get("/longterm", function(req, res){
+    res.render("longTermParkingForm");
+});
+app.get("/shortterm", function(req, res){
+    res.render("shortTermParkingForm");
+});
+app.get("/submitted", function(req, res){
+    res.render("parkingFormSubmission");
+});
+
 app.listen(process.env.PORT || 3000, function(){
     console.log("Parq server has started");
 }); 
