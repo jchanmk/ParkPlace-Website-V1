@@ -1,0 +1,41 @@
+@media screen and (min-width: 769px) {
+    body {
+        background-image: url(/Assets/Backgrounds/LegalBackground@2x.png);
+        background-position: top 0 left 110%;
+        background-repeat: round;
+        background-size: fill;
+        color: white;
+        /* background-color: #407AFF; */
+    }
+    .legalHeader {
+        margin-left: 22%;
+        margin-top: 5%;
+    }
+    .legalText {
+        white-space: pre-line;
+        width: 74%;
+        margin-left: 22%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    body {
+        background-image: url(/Assets/Backgrounds/LegalBackground@2x.png);
+        background-position: top 0 left 110%;
+        background-repeat: round;
+        background-size: fill;
+        color: white;
+        /* background-color: #407AFF; */
+    }
+    .legalHeader {
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .legalText {
+        white-space: pre-line;
+        width: 86%;
+        margin-left: 10%;
+        font-size: 16px;
+    }
+}

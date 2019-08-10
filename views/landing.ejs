@@ -15,10 +15,10 @@
                 <i class="fas fa-caret-right" id="searchbarArrow"></i>
                 <input type="search" name="search" id="searchbar" placeholder="Search Address or Event">
                 <i class="fas fa-search" id="magnifyGlass"></i> -->
-                <h1 id="homescreenTag">ParkPlace has the solution for you!</h1>
+                <h1 class="homescreenTag">ParkPlace has the solution for you!</h1>
                 <br>
-                <a class="homescreenButtons" role="button" href="#">SHORT TERM</a>
-                <a class="homescreenButtons" role="button" href="#">LONG TERM</a><br>
+                <a class="homescreenButtons" role="button" href="/shortterm">SHORT TERM</a>
+                <a class="homescreenButtons" role="button" href="/longterm">LONG TERM</a><br>
                 <div id="captionDiv">
                     <span class="homescreenCaptions">Best for events</span>
                     <span class="homescreenCaptions">Best for school</span>
@@ -54,8 +54,8 @@
                 <img class="testimonials" src="/Assets/Testimonials.svg" alt="">
             </div>
 
-            <% include ./partials/loginForm.ejs %>
-            <% include ./partials/signupForm.ejs %>
+            <!-- <% include ./partials/loginForm.ejs %>
+            <% include ./partials/signupForm.ejs %> -->
             <% include ./partials/bottomNav.ejs %>
         </div>
     </div>
@@ -70,8 +70,17 @@
         <div class="mobileParent">
             <img id="mobileLogo" src="/Assets/Mobile/Background/ParkLogoFinal.png" alt="">
             <div id="searchbarRectangleMobile">
-                <input type="search" name="search" id="searchbarMobile" placeholder="Search Address or Event">
-                <i class="fas fa-search" id="magnifyGlassMobile"></i>
+                <h1 class="homescreenTag">ParkPlace has the solution for you!</h1>
+                <div class="homescreenButtonsDivs">
+                    <a class="homescreenButtons" role="button" href="/shortterm">SHORT TERM</a>
+                    <p class="homescreenCaptions">Best for events</p>
+                </div>
+                <div class="homescreenButtonsDivs">
+                    <a class="homescreenButtons" role="button" href="/longterm">LONG TERM</a><br>
+                    <p class="homescreenCaptions">Best for school</p>
+                </div>
+                <!-- <input type="search" name="search" id="searchbarMobile" placeholder="Search Address or Event">
+                <i class="fas fa-search" id="magnifyGlassMobile"></i> -->
             </div>
             <img id="noQuestionMobile" src="/Assets/steps/noQuestion@2x.png" alt="">
             <div class="row one Mobile">

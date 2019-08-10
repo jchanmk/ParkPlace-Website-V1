@@ -1,0 +1,87 @@
+Parq Inc., a California Corporation, doing business as ParkPlace (“ParkPlace”) is an online and mobile application platform that enables parking space owners (“Hosts”) to connect with vehicle owners (“Guests”) in order to reserve and utilize parking spaces.
+ 
+Key Definitions:
+ 
+“User” – Any individual operating either the website or mobile application of ParkPlace with a valid account.
+ 
+“Host” – Any user who has listed a spot on ParkPlace’s service as the owner of that property or partner of the owner of that property.
+ 
+“Guest” – Any user who uses ParkPlace’s service to request and reserve a parking spot through payment.
+ 
+“Booking” – An agreement between two users, a Guest and a Host, for a Guest to use the Host’s service to park a vehicle on the listed property.
+
+“Spot” - The property that is listed by the Host onto the application for use of parking a car or other vehicle. 
+ 
+The ParkPlace Terms and Conditions applies to the use of (1) the ParkPlace mobile application and website operated and owned by ParkPlace, (2) the parking booking service accessible through the mobile application and website operated by ParkPlace, (3) any other services made available by ParkPlace on both the website and mobile application.
+
+WHEREAS Each Party has full power, authority, and right to perform its obligations under the Agreement.
+WHEREAS Each party agrees that Entering into this Agreement will not violate the charter or bylaws of either Party or any material contract to which that Party is also a party.
+WHEREAS each Party is duly authorized and capable of entering into this Agreement.
+WHEREAS This Agreement is a legal, valid, and binding obligation of each Party, enforceable against it in accordance with its terms (except as may be limited by bankruptcy, insolvency, moratorium, or similar laws affecting creditors’ rights generally and equitable remedies).
+ 
+By agreeing to the Terms and Conditions, the person who is involved in creating this account (the “User”) hereby agrees to all terms as follows, and agrees that failure to comply with these terms may result in deletion of this account, restrictions on use of the application, as well as possible legal implications.
+
+1. Guest
+ 
+1.1 Space Booking Service
+ParkPlace provides Guests access to the information of location and availability of parking spaces and aiding them in securing parking at a location. These locations are private driveways, private garages, and other off-street parking locations for which there is a sole owner. Each individual location may be subject to the Hosts own terms and conditions. Once the vehicle owner requests a booking through the ParkPlace mobile application the Guest has the ability to communicate with the Host (owner of listing) regarding the request. The Host of the spot is an independent third party and is not under ParkPlace’s control and therefore, the terms and conditions surrounding the booking fall to the Host. As a Guest you therefore acknowledge that each spot is not under the control of ParkPlace and that the terms and conditions are determined by the Host of which you agree with upon confirmation of booking by the Host either through the automatic timeframe or by manual confirmation. By using the Space Booking Service, you agree to receive notifications regarding your booking by ParkPlace. Hereby you agree that the ultimate decision of using the parking place upon receiving a confirmation of location and reservation provided to you by ParkPlace falls on you and you alone and any risks associated therewith you have acknowledged as inherent with your usage of the Space Booking Service. ParkPlace does not own and operate any parking locations. Furthermore, ParkPlace assumes no responsibility or liability for any person, vehicle or property at any location.
+ 
+1.2 Price and Service Fee
+The price that you the Guest see is set by the Host of the spot and with the additional service fee included. Price at a location may change depending on the Host, however ParkPlace will always charge a 20% fee to the Guest. The service fee will be displayed before confirming your booking and on your receipt. Price changes will not affect previous bookings already accepted by both the Guest and the Host. With this being said ParkPlace does not guarantee that the price you, the Guest, pays is the appropriate price at the time of your booking request. All charges are non-refundable unless stated by ParkPlace. You may be eligible to receive a coupon upon completion or incompletion of a booking due to any complication or if the request is deemed reasonable by ParkPlace. These are only valid for use on the ParkPlace platform and can not be converted in to a deposit to a registered bank account. 
+ 
+1.3 Privacy Policy
+We are committed to protecting your privacy online. The information you provide we request to be accurate for your own safety and we request each user review’s ParkPlace Privacy Policy for a description of what information is being collected and the use of it in ParkPlace’s service. 
+ 
+1.4 Damage and Disputes between Users
+Upon confirmation of a booking between you, the Guest, and a Host, you have accepted that you are entering the property at your own discretion. You are therefore responsible for leaving the property in the condition that you found it. ParkPlace is not responsible for any damage to you or the property while you are engaged in a booking with a Host and does not guarantee the security of your vehicle and its contents. You as a Guest are responsible for any individuals you bring to the property and their acts and behavior during the booking. If your vehicle or you personally experience any form of damage during your booking on the Host’s property, you agree to as a primary option resolve the matter with your host and insurance company. If the matter cannot be resolved through communication with the Host and ParkPlace deems the request reasonable then ParkPlace will conduct a mediation meeting to resolve the matter for both parties under the supervision of ParkPlace or an appointed third-party. If your vehicle is stolen please contact the police and your insurance provider immediately, ParkPlace assumes no insurance coverage for any User. 
+
+2. Host
+ 
+2.1 Ownership and Right to Rent Property
+By listing a parking spot for rent on the ParkPlace application, you are confirming that the address information and proof of ownership as well as ability to rent out the spot is accurate and compliant with local laws. It is your responsibility to be aware of and abide to local laws in connection to the renting out of your property. ParkPlace is not responsible for any consequences of your failed awareness to the local laws, regulation and policies. To verify ownership, ParkPlace requires an image showing a proof of address, most commonly a utility bill or any other formal property ownership declaration showing both the User’s name and address when listing a spot. If you are a tenant of the property, we may require a confirmation of consent to rent the spot from the landlord as an additional measure to rent the property.  
+ 
+2.2 Taxation
+ParkPlace may require collecting appropriate tax information from Hosts. As a Host you understand that any appropriate governmental agency and/or authority, hereto referred to as the Tax Authority, where your spot is located may require taxes to be collected and remitted to the Tax Authority. The laws may vary, but these taxes may be required to be collected and remitted as a percentage of the agreed price between Guest and Host per transaction or per day, or any other variation and are sometimes called “occupancy taxes” and other variations.
+ 
+We require all Hosts to report the income earned by using the ParkPlace service to the local Tax Authority.
+ 
+2.3 Guidelines
+By you agreeing to the ParkPlace Terms and Conditions you are entering an exclusive agreement for your spots, while they are considered “Live” on the application. As a Host you agree not to contact Guests for a parking agreement outside of the ParkPlace service application and not to provide any other goods & services through the ParkPlace application to Guests. You agree not to solicit with other Hosts in the area and form any alliances to undercut homeowner prices. 
+
+2.4 Damage to Host Property
+By agreeing to these Terms and Conditions you acknowledge that you are voluntarily entering into a booking agreement with a Guest and granting them permission to enter your property. Where possible ParkPlace will aid to resolve any of the issues that arise during a booking agreement on your property. By agreeing to these terms, you agree that ParkPlace is not responsible for any damage to your property or person that may occur during an agreement between Users. ParkPlace does not guarantee any safety of the property and you are responsible for ensuring that your property is adequately secured and protected when entering an agreement. In the result of any damage occurring you agree to attempt to resolve the matter through direct contact with the User. If you and the User are unable to resolve the issue through direct contact than you may contact ParkPlace to pursue a formal resolution process. ParkPlace does not provide insurance coverage to the Host and you as the licensed operator or owner of the property are required to obtain the insurance coverage necessary to rent out your spot.
+ 
+ 
+3. General Terms of Service
+ 
+3.1  Your Account
+To access the ParkPlace services basic personal information (name, email, etc.) is required to be submitted. Certain regulations may require ParkPlace to collect appropriate tax information from the Host. If the Host fails to provide that information under the applicable law than ParkPlace reserves the right to withhold payouts up to the tax-relevant amount. When registering as a Host, ParkPlace does require a proof of address through a utility bill or some other bill showing both your name and address of the desired spot location you intend to upload on the ParkPlace platform. This information is solely used to authorize your account. Maintaining more than one account is a breach of these Terms and Conditions and if ParkPlace finds you responsible for maintaining multiple accounts we do hold the right to delete your accounts. When registering you agree that the information you provide is accurate and up to date. You are responsible for maintaining this information and agree that it is complete and current. If you find that your account is being used by an unauthorized individual, you agree to notify ParkPlace immediately. You may not assign or transfer your ParkPlace account to another party.
+ 
+3.2  Modification of Services and Termination of Agreement
+ParkPlace reserves the right to modify the Services in its sole discretion. Continued use of the Services indicates your acknowledgement and agreement with all the Services.
+ 
+Any notices or communications to Users are permitted under these Terms and will be done electronically, either through email, the ParkPlace application, or direct messaging service (such as SMS). Any modifications to these Terms will be provided to you via email within at least 30 days before they come into effect. If you do not agree with these Terms and wish to terminate this agreement with immediate effect, we will inform you about your termination in a notification email. If you do not terminate this agreement before the date that the revised Terms become effective and continue to use the ParkPlace platform this will constitute as an acceptance of the revised Terms.
+ 
+3.3  Promotional Offers and Codes
+ParkPlace will run limited-time promotional offers and reward programs and the User will be eligible for certain offers depending on the account. Referral offers only apply to a registered User referring a new previously unregistered User through a referral code that is specific to the registered User. Each User has a limited amount of times that this code can be used. Any promotional code cannot be exchanged for cash value and any illegitimate code, obtained through fraudulent activities, such as counterfeiting, will result in a suspension or ban of the User. The Code cannot be bought or sold for monetary compensation and if ParkPlace discovers a violation of this Term ParkPlace may suspend or ban the account, nullify the value obtained, and/or charge the credit card for the value of service ordered with the illegitimate code.
+ 
+3.4  Intellectual Property Rights
+The ParkPlace platform and content may in part or entirety be protected by copyright, trademark, and/or other laws in the United States. You acknowledge and agree that the ParkPlace platform and content, and all associated intellectual property rights are the exclusive property of ParkPlace and/or its licensors. You will not remove, tamper or conceal any copyright, trademark or service mark incorporated into ParkPlace platform and content. You will not use, copy, modify, distribute or exploit the ParkPlace platform and content, unless you are the legal owner of certain content or have reached any form of mutual agreement with ParkPlace. By uploading any User content to the ParkPlace platform, you grant ParkPlace the right to utilize any content to be copied, transformed, published, and distributed royalty-free globally. Insofar that the User content contains personal information ParkPlace will comply with the applicable data protection laws and you will have the right to revoke the content from the platform. ParkPlace will not assume any ownership rights of the User content and is solely functioning based off of your consent.
+ 
+3.6 Transaction Processing
+All Payments and Fees are facilitated through the third-party platform, Stripe. All payments will be distributed by Stripe to the user and can be transferred immediately into the User’s bank account. In the event that a User does not receive the full amount of payment or is unable to direct transfer to the associated bank account, you do reserve the right to contact ParkPlace to help you resolve this matter. Due to the fact that ParkPlace is operating with Stripe Inc. you also agree to Stripe Inc’s service agreement accessible at https://stripe.com/ssa and privacy policy accessible at https://stripe.com/privacy.
+ 
+3.7 Overstaying the Booking
+As the Guest you understand that the booking of a parking spot is a temporary license specific to date and time in which you are allowed to park your vehicle on a Host’s privately-owned property. The Host retains the right to continue to use the property according to his/her own terms. As part of your agreement with the Host you understand that you must leave the accommodation at the check-out time which you specified and mutually agreed with the Host. If you do stay past the agreed checkout time and the 30-minute buffer provided by ParkPlace without consent from the Host, you have entered overstay. Once this begins, the Host is entitled to remove you and your vehicle from the property consistent with the law. In addition, to being removed you agree to burden of the costs incurred by the Host (such as the towing agency or legal entity called into action). Furthermore, ParkPlace reserves the right to charge you for any bookings that were intended occur after your own booking and were either delayed or canceled at a rate higher than what was originally paid.
+
+Any questions or concerns with anything mentioned in this agreement can be directed to Parq Inc. at info@parqinc.com or mailed to 
+26500 W. Agoura Rd - Suite 211
+Calabasas, California 91302
+
+I HAVE READ THIS AGREEMENT CAREFULLY AND I UNDERSTAND AND ACCEPT THE OBLIGATIONS THAT IT IMPOSES UPON ME WITHOUT RESERVATION. NO PROMISES OR REPRESENTATIONS HAVE BEEN MADE TO ME TO INDUCE ME TO AGREE TO THIS AGREEMENT. I AGREE TO THIS AGREEMENT VOLUNTARILY AND FREELY, WITH THE UNDERSTANDING THAT I EITHER (1) HAVE RETAINED A COPY OF THIS AGREEMENT OR (2) MAY, AT ANY TIME, REQUEST A COPY OF THIS AGREEMENT FROM Parq Inc. doing business as ParkPlace. 
+ 
+ 
+ 
+ 
+ 
+

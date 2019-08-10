@@ -1,426 +1,495 @@
-@media screen and (max-width: 768px){
-    .mobileView {
-      display: block;
-    }
-    body{
-      background-image: url(/Assets/Mobile/Background/mobileBackgroundUpper2.svg), url(/Assets/Mobile/Background/Rectangle2@2x.png);
-      background-position: top 3% left 50%, top 129% left 50%;
-      background-repeat: no-repeat, no-repeat;
-      background-size: 102%, 100%;
-    }
+@media screen and (max-width: 768px) {
+  .mobileView {
+    display: block;
   }
-  #mobileLogo{
+  body {
+    background-image: url(/Assets/Mobile/Background/mobileBackgroundUpper2.svg), url(/Assets/Mobile/Background/Rectangle2@2x.png);
+    background-position: top 3% left 50%, top 109% left 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 102%, 100%;
+  }
+  #mobileLogo {
     margin-left: 10%;
     padding-top: 19%;
     padding-bottom: 25%;
     width: 80%;
   }
-  #temporarySearchMobile{
+  #temporarySearchMobile {
     font-size: 20px;
     margin-left: 23%;
     margin-top: 89%;
   }
-  html,body{
-    overflow-x: hidden; 
+  html, body {
+    overflow-x: hidden;
+  }
+  #searchbarMobile {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-top: 1.05%;
+    padding-top: 1.5%;
+    padding-bottom: 1.1%;
+    width: 85%;
+    border: none;
+    /* border-radius: 30px; */
+  }
+  #searchbarRectangleMobile {
+    margin-top: 10%;
+    margin-left: 7.5%;
+    width: 85%;
+    border-radius: 30px;
+    /* background-color: #183557; */
+    height: 2.7em;
+  }
+  .homescreenTag {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    /* text-shadow: 10px 13px 18px rgba(0, 0, 0, 0.55); */
+  }
+  .homescreenButtons {
+    background: white;
+    font-size: 15px;
+    padding: 2.5%;
+    padding-left: 11%;
+    padding-right: 11%;
+    color: #407AFF;
+    border-radius: 10px;
+  }
+  .homescreenButtonsDivs {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .homescreenButtons:hover {
+    text-decoration: none;
+  }
+  .homescreenCaptions {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+  }
 }
 
-#searchbarMobile{
-  font-size: 16px;
-  margin-left: 5%;
-  margin-top: 1.05%;
-  padding-top: 1.5%;
-  padding-bottom: 1.1%;
-  width: 85%;
-  border: none;
-  /* border-radius: 30px; */
-}
-#searchbarRectangleMobile{
-  margin-top: 10%;
-  margin-left: 7.5%;
-  width: 85%;
-  border-radius: 30px;
-  background-color: #183557;
-  height: 2.7em;
-}
+/* 
 #magnifyGlassMobile{
   color:white;
   margin-left: 1.5%;
   margin-top: -3%;
+} */
+
+#noQuestionMobile {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50%;
+  box-shadow: 6px 17px 22px 0 rgba(0, 0, 0, 0.2);
 }
 
+#noQuestionMobile.iPad {
+  margin-left: 10%;
+}
 
-  #noQuestionMobile {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 10%;
-    box-shadow: 6px 17px 22px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  #noQuestionMobile.iPad {
-    margin-left: 10%;
-  }
-
-  .logoMobile{
-    /* margin-left: 50%; */
-    /* margin-top: 12%; */
-    /* margin-top: 25%; */
-    left: 11.8%;
-    top: 1.7em;
-    width: 75%;
-    display: block;
-    position: relative;
+.logoMobile {
+  /* margin-left: 50%; */
+  /* margin-top: 12%; */
+  /* margin-top: 25%; */
+  left: 11.8%;
+  top: 1.7em;
+  width: 75%;
+  display: block;
+  position: relative;
 }
 
 .stepsMobile {
-    /* margin-top: -0.2%; */
-    margin-left: -47.4%;
-    box-shadow: 6px 17px 22px 0 rgba(0, 0, 0, 0.2);
-    width: 41.9%;
-    transition: all .2s ease-in-out; 
-  }
-.stepsMobile.iPad{
-    margin-left: -48.4%;
-    width: 44.2%;
-}
-.stepsMobile.iPhone6{
-    margin-left: -46.8%;
-    width: 41.3%;
-}
-  .popupsMobile {
-    opacity: 0;
-    visibility: hidden;
-    width: 85%;
-    transition: visibility 0.2s, opacity 0.2s linear;
-  }
-  .popupsMobile.iPad{
-    width: 95%;
-  }
-  #finditPopMobile{
-    margin-top: -91%;
-    margin-left: -30%;
-  }
-  #finditPopMobile.iPad{
-    margin-top: -100%;
-  }
-
-  #bookitPopMobile{
-    margin-top: -90.7%;
-    margin-left:-64%;
-  }
-  #bookitPopMobile.iPad{
-    margin-top: -100.9%;
-  }
-  #parqitPopMobile{
-    margin-top: -145.8%;
-    margin-left: -19%;
-  }
-  #parqitPopMobile.iPhone5{
-    margin-top: -152.8%;
-  }
-  #finditPopMobile.reveal, #bookitPopMobile.reveal, #parqitPopMobile.reveal{
-    opacity: 1;
-    visibility: visible;
-  }
-
-  #bookItMobile{
-    margin-left: -50.8%;
-    /* margin-top: -35.5%; */
-  }
-  #bookItMobile.iPad{
-    margin-left: -60.8%;
-    /* margin-top: -35.5%; */
-  }
-  #parqItMobile{
-    margin-left: -17.5%;
-    margin-top: -40%;
-  }
-  #parqItMobile.iPad{
-    margin-left: -26.5%;
-    margin-top: -38%;
-  }
-  #parqItMobile.iPhone5{
-    margin-top: -42.6%;
-  }
-  .readMoreButtonsMobile{
-    font-size: 70%;
-    margin-left: -28%;
-    padding: 1%;
-    background: #3973F1;
-    border-radius: 50px;
-    width: 24.5%;
-    height: 2em;
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility 0.2s, opacity 0.2s linear;
-  }
-  .readMoreButtonsMobile.iPad{
-    padding: 1.5%;
-    height: 3em;
-  }
-  .readMoreButtonsMobile.iPhone5{
-    font-size: 50%;
-  }
-
-
-
-  #finditReadMobile{
-    margin-top: -49.4%;
-    margin-left: -33%;
-  }
-  #bookitReadMobile{
-    margin-top: -88%;
-    margin-left: 28%;
-  }
-  #bookitReadMobile.iPad{
-    margin-top: -88%;
-    margin-left: 38%;
-  }
-  #parqitReadMobile{
-    margin-top: -102.7%;
-    margin-left: -32%;
-  }
-  #parqitReadMobile.iPad{
-    margin-top: -95.7%;
-  }
-  #parqitReadMobile.iPhone5{
-    margin-top: -107.7%;
-  }
-  #finditReadMobile.reveal, #bookitReadMobile.reveal, #parqitReadMobile.reveal{
-    opacity: 1;
-    visibility: visible;
-  }
-
-  #rowtwoMobile{
-    margin-top: 4%;
-    margin-left: 11%;
-    /* margin-bottom: -900%; */
-  }
-  #becomeHostMobile{
-    width: 90%;
-  }
-  #becomeHostMobile.iPad{
-      /* width: 90%; */
-      /* margin-left: 6%; */
-      margin-top: 10%;
-  }
-  #moneyButtonMobile{
-    font-size: 100%;
-    margin-left: 57%;
-    margin-top: -20%;
-    padding: 0.8%;
-    background: #3973F1;
-    border-radius: 50px;
-    width: 28.5%;
-    /* height: 2.9em; */
-  }
-  #moneyButtonMobile.iPad{
-      margin-left: 50%;
-      margin-top: -20%;
-      height: 3em;
-      padding: 1.3%;
-  }
-  #moneyButtonMobile.iPhone5{
-      font-size: 80%
-}
-  .rowthreeMobile{
-      margin-bottom: 10%;
-  }
-
- .quotesDiv{
-     background-color: white;
-     width: 80%;
-     margin-left: 10.7%;
-     margin-top: 10%;
-     /* margin-bottom: 20%; */
-     height: 21em;
-     overflow-x: scroll;
-     overflow-y: visible;
-     border-radius: 7px;
- }
- .quotesDiv.iPad{
-     height: 39em;
- }
- #quotesMobile{
-     margin-top: 3%;
-     margin-left: 8%;
-     margin-right: 8%;
-     width: 190%;
- }
- #quotesMobile.iPhone5{
-    margin-top: 27%;
+  /* margin-top: -0.2%; */
+  margin-left: -47.4%;
+  box-shadow: 6px 17px 22px 0 rgba(0, 0, 0, 0.2);
+  width: 41.9%;
+  transition: all .2s ease-in-out;
 }
 
- #quotesHeader{
-    /* position: absolute; */
-    /* position: relative; */
-    font-size: 125%;
-    /* margin-left: 20%; */
-    margin-left: 12%;
-    font-weight: bold;
-    color: #9A9A9A;
- }
- #quotesHeader.iPad{
-     font-size: 255%;
-     margin-top: 4%;
- }
- #quotesHeader.iPhone5{
-    font-size: 105%;
- }
-  
+.stepsMobile.iPad {
+  margin-left: -48.4%;
+  width: 44.2%;
+}
+
+.stepsMobile.iPhone6 {
+  margin-left: -46.8%;
+  width: 41.3%;
+}
+
+.popupsMobile {
+  opacity: 0;
+  visibility: hidden;
+  width: 85%;
+  transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+.popupsMobile.iPad {
+  width: 95%;
+}
+
+#finditPopMobile {
+  margin-top: -91%;
+  margin-left: -30%;
+}
+
+#finditPopMobile.iPad {
+  margin-top: -100%;
+}
+
+#bookitPopMobile {
+  margin-top: -90.7%;
+  margin-left: -64%;
+}
+
+#bookitPopMobile.iPad {
+  margin-top: -100.9%;
+}
+
+#parqitPopMobile {
+  margin-top: -145.8%;
+  margin-left: -19%;
+}
+
+#parqitPopMobile.iPhone5 {
+  margin-top: -152.8%;
+}
+
+#finditPopMobile.reveal, #bookitPopMobile.reveal, #parqitPopMobile.reveal {
+  opacity: 1;
+  visibility: visible;
+}
+
+#bookItMobile {
+  margin-left: -50.8%;
+  /* margin-top: -35.5%; */
+}
+
+#bookItMobile.iPad {
+  margin-left: -60.8%;
+  /* margin-top: -35.5%; */
+}
+
+#parqItMobile {
+  margin-left: -17.5%;
+  margin-top: -40%;
+}
+
+#parqItMobile.iPad {
+  margin-left: -26.5%;
+  margin-top: -38%;
+}
+
+#parqItMobile.iPhone5 {
+  margin-top: -42.6%;
+}
+
+.readMoreButtonsMobile {
+  font-size: 70%;
+  margin-left: -28%;
+  padding: 1%;
+  background: #3973F1;
+  border-radius: 50px;
+  width: 24.5%;
+  height: 2em;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+.readMoreButtonsMobile.iPad {
+  padding: 1.5%;
+  height: 3em;
+}
+
+.readMoreButtonsMobile.iPhone5 {
+  font-size: 50%;
+}
+
+#finditReadMobile {
+  margin-top: -49.4%;
+  margin-left: -33%;
+}
+
+#bookitReadMobile {
+  margin-top: -88%;
+  margin-left: 28%;
+}
+
+#bookitReadMobile.iPad {
+  margin-top: -88%;
+  margin-left: 38%;
+}
+
+#parqitReadMobile {
+  margin-top: -102.7%;
+  margin-left: -32%;
+}
+
+#parqitReadMobile.iPad {
+  margin-top: -95.7%;
+}
+
+#parqitReadMobile.iPhone5 {
+  margin-top: -107.7%;
+}
+
+#finditReadMobile.reveal, #bookitReadMobile.reveal, #parqitReadMobile.reveal {
+  opacity: 1;
+  visibility: visible;
+}
+
+#rowtwoMobile {
+  margin-top: 4%;
+  margin-left: 11%;
+  /* margin-bottom: -900%; */
+}
+
+#becomeHostMobile {
+  width: 90%;
+}
+
+#becomeHostMobile.iPad {
+  /* width: 90%; */
+  /* margin-left: 6%; */
+  margin-top: 10%;
+}
+
+#moneyButtonMobile {
+  font-size: 100%;
+  margin-left: 57%;
+  margin-top: -20%;
+  padding: 0.8%;
+  background: #3973F1;
+  border-radius: 50px;
+  width: 28.5%;
+  /* height: 2.9em; */
+}
+
+#moneyButtonMobile.iPad {
+  margin-left: 50%;
+  margin-top: -20%;
+  height: 3em;
+  padding: 1.3%;
+}
+
+#moneyButtonMobile.iPhone5 {
+  font-size: 80%
+}
+
+.rowthreeMobile {
+  margin-bottom: 10%;
+}
+
+.quotesDiv {
+  background-color: white;
+  width: 80%;
+  margin-left: 10.7%;
+  margin-top: 10%;
+  /* margin-bottom: 20%; */
+  height: 21em;
+  overflow-x: scroll;
+  overflow-y: visible;
+  border-radius: 7px;
+}
+
+.quotesDiv.iPad {
+  height: 39em;
+}
+
+#quotesMobile {
+  margin-top: 3%;
+  margin-left: 8%;
+  margin-right: 8%;
+  width: 190%;
+}
+
+#quotesMobile.iPhone5 {
+  margin-top: 27%;
+}
+
+#quotesHeader {
+  /* position: absolute; */
+  /* position: relative; */
+  font-size: 125%;
+  /* margin-left: 20%; */
+  margin-left: 12%;
+  font-weight: bold;
+  color: #9A9A9A;
+}
+
+#quotesHeader.iPad {
+  font-size: 255%;
+  margin-top: 4%;
+}
+
+#quotesHeader.iPhone5 {
+  font-size: 105%;
+}
 
 /* NavBar */
+
 .wrapperMobile {
-    /* display: flex; */
-    display: flex;
-    position: fixed;
-    align-items: stretch;
-    font-weight: lighter;
-    /* margin-top: -85%; */
-    width:53%;
-    left: -450px;
-    transition: all 0.3s ease-in-out;
-    top: 0;
-  }
+  /* display: flex; */
+  display: flex;
+  position: fixed;
+  align-items: stretch;
+  font-weight: lighter;
+  /* margin-top: -85%; */
+  width: 53%;
+  left: -450px;
+  transition: all 0.3s ease-in-out;
+  top: 0;
+}
+
 .wrapperMobile.active {
-    left: 0;
+  left: 0;
 }
 
-#sidebarCollapse{
-    float: left;
-    position: fixed;
-    top: 0;
-}
-#sidebarCollapse.iPad{
-    width: 8%;
-}
-#sidebarCollapse.displayNone{
-    display: none;
+#sidebarCollapse {
+  float: left;
+  position: fixed;
+  top: 0;
 }
 
-#dismiss{
-    position: fixed;
+#sidebarCollapse.iPad {
+  width: 8%;
 }
-#dismiss.iPad{
-    width: 8%;
+
+#sidebarCollapse.displayNone {
+  display: none;
 }
-  
-  #sidebarMobile {
-    /* min-width: 250px; */
-    /* position: absolute; */
-    /* width: 19%; */
-    /* margin-top: -63%; */
-    /* margin-top: -161.2%;*/ /* for iphone 6 */
-    /* margin-top: -162%; */
-    background: #2F4968;
-    color: #fff;
-    transition: all 0.3s;
-    font-weight: 100;
-    left: -250px;
-    justify-content: center;
-  }
-  #sidebarMobile.iPad{
-      margin-top: -164.8%;
-  }
-  .overlay {
-    display: none;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 998;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+
+#dismiss {
+  position: fixed;
+}
+
+#dismiss.iPad {
+  width: 8%;
+}
+
+#sidebarMobile {
+  /* min-width: 250px; */
+  /* position: absolute; */
+  /* width: 19%; */
+  /* margin-top: -63%; */
+  /* margin-top: -161.2%;*/
+  /* for iphone 6 */
+  /* margin-top: -162%; */
+  background: #2F4968;
+  color: #fff;
+  transition: all 0.3s;
+  font-weight: 100;
+  left: -250px;
+  justify-content: center;
+}
+
+#sidebarMobile.iPad {
+  margin-top: -164.8%;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .overlay.active {
-    display: block;
-    opacity: 1;
-}
-  
-  #sidebarMobile a,
-  #sidebarMobile a:hover,
-  #sidebarMobile a:focus {
-    color: inherit;
-  }
-  
-  #sidebarMobile.active {
-    margin-left: -250px;
-  }
-  
-  #sidebarMobile .sidebar-header {
-    padding: 10%;
-    padding-bottom: 10px;
-    background: #2F4968;
-    /* margin-top: -30%; */
-  }
-
-  #sidebarMobile .sidebar-header h3{
-      font-weight: 100;
-      font-size: 1.4em;
-      text-align: center;
-      padding-bottom: 0;
-      padding-top: 5%;
-      margin-bottom: 0;
-  }
-
-  #sidebarMobile .sidebar-header img{
-    width: 70%;
-    position: relative;
-    left: 15%;
-  }
-
-#sidebarMobile .sidebar-header #loginButton{
-    /* position: relative; */
-    margin-left: 18.2%;
-    font-size: 100%;
-    padding: 3%;
-    background: #3973F1;
-    border-radius: 50px;
-    width: 68%;
-    /* height: 2.5em; */
-    -moz-border-radius: 50px;
+  display: block;
+  opacity: 1;
 }
 
+#sidebarMobile a, #sidebarMobile a:hover, #sidebarMobile a:focus {
+  color: inherit;
+}
 
-  #sidebarMobile ul.components {
-    /* padding: 3px 0; */
-    padding-left: 15%;
-    /* padding-bottom: 3px; */
-    border-top: 1px solid #707070;
-    border-bottom: 1px solid #707070;
-  }
-  
-  #sidebarMobile ul p {
-    color: #fff;
-    padding: 10px;
-  }
-  
-  #sidebarMobile ul li a {
-    padding: 10px;
-    font-weight: light;
-    font-size: 100%;
-    display: block;
-  }
-  #sidebarMobile ul li a.iPhone5 {
-    padding: 10px;
-    font-weight: light;
-    font-size: 80%;
-    display: block;
-  }
-  
-  #sidebarMobile ul li a:hover {
-    color: #7386D5;
-    background: #fff;
-    text-decoration: none;
-  }
-  
- 
-  
-  /* a[data-toggle="collapse"] {
+#sidebarMobile.active {
+  margin-left: -250px;
+}
+
+#sidebarMobile .sidebar-header {
+  padding: 10%;
+  padding-bottom: 10px;
+  background: #2F4968;
+  /* margin-top: -30%; */
+}
+
+#sidebarMobile .sidebar-header h3 {
+  font-weight: 100;
+  font-size: 1.4em;
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 5%;
+  margin-bottom: 0;
+}
+
+#sidebarMobile .sidebar-header img {
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+
+#sidebarMobile .sidebar-header #loginButton {
+  /* position: relative; */
+  margin-left: 18.2%;
+  font-size: 100%;
+  padding: 3%;
+  background: #3973F1;
+  border-radius: 50px;
+  width: 68%;
+  /* height: 2.5em; */
+  -moz-border-radius: 50px;
+}
+
+#sidebarMobile ul.components {
+  /* padding: 3px 0; */
+  padding-left: 15%;
+  /* padding-bottom: 3px; */
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+}
+
+#sidebarMobile ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebarMobile ul li a {
+  padding: 10px;
+  font-weight: light;
+  font-size: 100%;
+  display: block;
+}
+
+#sidebarMobile ul li a.iPhone5 {
+  padding: 10px;
+  font-weight: light;
+  font-size: 80%;
+  display: block;
+}
+
+#sidebarMobile ul li a:hover {
+  color: #7386D5;
+  background: #fff;
+  text-decoration: none;
+}
+
+/* a[data-toggle="collapse"] {
     position: relative;
   }
    */
-  /* a[aria-expanded="false"]::before,
+
+/* a[aria-expanded="false"]::before,
   a[aria-expanded="true"]::before {
     content: '\e259';
     display: block;
@@ -430,65 +499,64 @@
     font-size: 0.6em;
   }
    */
-  /* a[aria-expanded="true"]::before {
+
+/* a[aria-expanded="true"]::before {
     content: '\e260';
   } */
-  
-  ul.Mobile ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: #6d7fcc;
-  }
-  
-  ul.Mobile.CTAs {
-    padding: 20px;
-  }
-  
-  ul.CTAs a {
-    text-align: center;
-    font-size: 0.9em !important;
-    display: block;
-    border-radius: 5px;
-    margin-bottom: 5px;
-  }
-  
-  a.download {
-    background: #fff;
-    color: #7386D5;
-  }
-  
-  a.article,
-  a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
-  }
 
-  #navBottomMobile{
-    /* padding-top: 15px; */
-    font-weight: 600;
-    text-align: center;
-  }
-  #navBottomMobile p{
-    margin: 0 0 3px;
-  }
-  #navBottomMobile p.iPhone5{
-      font-size: 75%;
-      margin: 0 0 1px;
-  }
-
-  #navBottomMobile img{
-      width: 35%;
-  }
-  #navBottomMobile img.iPhone5{
-    width: 30%;
+ul.Mobile ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #6d7fcc;
 }
-  
 
-  .iconsMobile a{
-      margin: 3%;
-      padding-bottom: 150px;
-      /* width: 50%; */
-  }
+ul.Mobile.CTAs {
+  padding: 20px;
+}
 
-  
-  
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+  color: #7386D5;
+}
+
+a.article, a.article:hover {
+  background: #6d7fcc !important;
+  color: #fff !important;
+}
+
+#navBottomMobile {
+  /* padding-top: 15px; */
+  font-weight: 600;
+  text-align: center;
+}
+
+#navBottomMobile p {
+  margin: 0 0 3px;
+}
+
+#navBottomMobile p.iPhone5 {
+  font-size: 75%;
+  margin: 0 0 1px;
+}
+
+#navBottomMobile img {
+  width: 35%;
+}
+
+#navBottomMobile img.iPhone5 {
+  width: 30%;
+}
+
+.iconsMobile a {
+  margin: 3%;
+  padding-bottom: 150px;
+  /* width: 50%; */
+}

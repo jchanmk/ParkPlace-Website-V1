@@ -99,3 +99,109 @@
         font-weight: 700;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(/Assets/Backgrounds/parkingFormBackgroundMobile.png);
+        background-position: top 0 left 0;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #407AFF;
+    }
+    .parent {
+        width: 100%;
+        float: left;
+    }
+    .parkingFormText {
+        color: white;
+        text-align: center;
+        margin-top: 25%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .parkingFormText img{
+        display: block;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .parkingFormText h1 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .parkingFormBlurb {
+        font-size: 16px;
+        font-weight: 300;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .parkingFormSecondBlurb {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .parkingForm {
+        /* display: inline-block; */
+        /* margin-left: 30%; */
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+        padding-bottom: 50px;
+    }
+   
+    .parkingFormSubmissionLogo{
+        display: block;
+        width: 250px;
+        margin-top: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parkingFormInputs {
+        width: 100%;
+        font-family: Open Sans;
+        margin-bottom: 25px;
+        padding: 5px;
+        padding-left: 10px;
+        background: white;
+        font-size: 20px;
+        border-radius: 3px;
+        -webkit-box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.32);
+        -moz-box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.32);
+        box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.32);
+    }
+    .parkingFormInputs input {
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 20px;
+    }
+    
+    .parkingFormInputs label {
+        font-weight: 500;
+        color: #0058E6;
+        margin-left: 5px;
+    }
+    .parkingFormButton {
+        width: 100%;
+        background: #0058E6;
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 23px;
+        border-radius: 3px;
+        -webkit-box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.32);
+        -moz-box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.32);
+        box-shadow: 12px 10px 39px -1px rgba(0,0,0,0.32);
+    }
+    .submittedText{
+        color: white;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 30%;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
